@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Importpreneur VIP | Practical Import & Customs Learning Community</title>
+  <meta name="description" content="Join Importpreneur VIP, a practical WhatsApp learning community for importers, aspiring importpreneurs, logistics professionals and EXIM learners. Learn import documentation, HSN classification, Customs, DGFT, costing and real-world import practices." />
+  
+  <!-- Open Graph / Meta -->
+  <meta property="og:title" content="Importpreneur VIP | Practical Import & Customs Learning Community" />
+  <meta property="og:description" content="Learn practical import documentation, HSN classification, Customs, DGFT, costing and real-world shipment practices." />
+  <meta property="og:image" content="assets/hero-port.jpg" />
+  <meta property="og:type" content="website" />
+  <link rel="icon" type="image/x-icon" href="public/favicon.ico" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Top Reading Progress Bar -->
+  <div id="scroll-progress" class="scroll-progress"></div>
+
+  <!-- ======================================================================
+       Header & Navigation
+       ====================================================================== -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="#home" class="brand">
+        <span class="brand-icon">⚓</span>
+        Importpreneur <span>VIP</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Main Navigation">
+        <a href="#home" id="nav-home">Home</a>
+        <a href="#learn" id="nav-learn">What You Learn</a>
+        <a href="#books" id="nav-books">Books</a>
+        <a href="#calculator" id="nav-calc">Calculator</a>
+        <a href="#audience" id="nav-audience">Who Should Join</a>
+        <a href="#mentor" id="nav-mentor">About Mentor</a>
+        <a href="#faq" id="nav-faq">FAQ</a>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Bilingual Language Switcher -->
+        <div class="lang-switcher" role="group" aria-label="Language selection">
+          <button class="lang-btn active" id="lang-en" data-lang="en">EN</button>
+          <button class="lang-btn" id="lang-ta" data-lang="ta">தமிழ்</button>
+        </div>
+
+        <a href="https://chat.whatsapp.com/FYZv7piu46iLFJYe3qUAQ1" target="_blank" rel="noopener noreferrer" class="btn-whatsapp sm" id="header-cta">
+          👑 JOIN VIP
+        </a>
+
+        <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle Menu" aria-expanded="false" onclick="toggleMobileNav()">
+          ☰
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Dropdown -->
+    <div class="mobile-nav" id="mobile-nav">
+      <a href="#home" onclick="closeMobileNav()" id="mob-nav-home">Home</a>
+      <a href="#learn" onclick="closeMobileNav()" id="mob-nav-learn">What You Learn</a>
+      <a href="#books" onclick="closeMobileNav()" id="mob-nav-books">Books</a>
+      <a href="#calculator" onclick="closeMobileNav()" id="mob-nav-calc">Calculator</a>
+      <a href="#audience" onclick="closeMobileNav()" id="mob-nav-audience">Who Should Join</a>
+      <a href="#mentor" onclick="closeMobileNav()" id="mob-nav-mentor">About Mentor</a>
+      <a href="#faq" onclick="closeMobileNav()" id="mob-nav-faq">FAQ</a>
+      <div style="padding-top: 0.5rem;">
+        <a href="https://chat.whatsapp.com/FYZv7piu46iLFJYe3qUAQ1" target="_blank" rel="noopener noreferrer" class="btn-whatsapp" style="width: 100%; font-size: 0.8125rem;" id="mob-nav-cta">
+          👑 JOIN VIP ON WHATSAPP
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ====================================================================
+         Hero Section
+         ==================================================================== -->
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <div class="hero-live-tag">
+              <span class="live-dot"></span>
+              <span id="hero-live-text">Live VIP Community • Admissions Active</span>
+            </div>
+            <span class="eyebrow" id="hero-eyebrow">🚢 Practical import knowledge. Real-world guidance.</span>
+            <h1 id="hero-title">Want to Understand Importing Without Getting Lost in Customs, Documentation & Compliance?</h1>
+            <p class="hero-body" id="hero-body">
+              Join the <strong>Importpreneur VIP WhatsApp Community</strong> and learn the practical side of importing — from documentation and HSN classification to Customs, DGFT, costing and real-world shipment challenges.
+            </p>
+
+            <div class="hero-cta">
+              <a href="https://chat.whatsapp.com/FYZv7piu46iLFJYe3qUAQ1" target="_blank" rel="noopener noreferrer" class="btn-whatsapp" id="hero-cta">
+                👑 JOIN IMPORTPRENEUR VIP ON WHATSAPP
+              </a>
+              <p class="hero-micro" id="hero-micro">Free to join • Practical learning • Community support</p>
+            </div>
+
+            <div class="hero-quick-buttons">
+              <a href="#books" class="btn-subtle-outline">📚 <span id="hero-btn-books">Explore 10 Handbooks</span></a>
+              <a href="#calculator" class="btn-subtle-outline">🧮 <span id="hero-btn-calc">Landed Cost Calculator</span></a>
+            </div>
+          </div>
+
+          <div class="hero-image-wrapper">
+            <img src="assets/hero-port.jpg" alt="Container ship being loaded at an international port" />
+            <div class="hero-badge" id="hero-badge">Documentation • Customs • Logistics</div>
+          </div>
+        </div>
+
+        <!-- Live Metrics Strip -->
+        <div class="hero-stats-bar">
+          <div class="stat-item">
+            <span class="stat-number">30+</span>
+            <span class="stat-label" id="stat-years">Years Field Experience</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">10</span>
+            <span class="stat-label" id="stat-books">Publication Handbooks</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">₹500</span>
+            <span class="stat-label" id="stat-qa">Protected Q&A (₹250 Milestone)</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">1,000+</span>
+            <span class="stat-label" id="stat-members">Active EXIM Learners</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         Pain Points Section
+         ==================================================================== -->
+    <section class="section section-surface">
+      <div class="container">
+        <div class="text-center">
+          <span class="eyebrow" id="pain-eyebrow">The reality of importing</span>
+          <h2 class="section-title" id="pain-title">Importing Looks Simple. Until You Actually Start.</h2>
+          <p class="section-desc" id="pain-intro">
+            The real challenges often begin after the purchase order is placed. Documentation, classification, Customs, compliance, costing and coordination can quickly become confusing.
+          </p>
+        </div>
+
+        <div class="cards-grid" id="pain-grid">
+          <!-- Populated dynamically via JS -->
+        </div>
+
+        <p class="text-center" style="margin-top: 2rem; font-weight: 700; color: var(--navy);" id="pain-closing">
+          You don't need more confusion. You need practical guidance.
+        </p>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         What You Learn Section
+         ==================================================================== -->
+    <section id="learn" class="section">
+      <div class="container">
+        <div class="text-center">
+          <span class="eyebrow" id="learn-eyebrow">Inside the community</span>
+          <h2 class="section-title" id="learn-title">What You Will Learn Inside Importpreneur VIP</h2>
+          <p class="section-desc" id="learn-intro">
+            Focused, practical learning across the areas that actually decide how smoothly a shipment moves.
+          </p>
+        </div>
+
+        <div class="cards-grid" id="learn-grid">
+          <!-- Populated dynamically via JS -->
+        </div>
+
+        <div class="text-center" style="margin-top: 3rem;">
+          <a href="https://chat.whatsapp.com/FYZv7piu46iLFJYe3qUAQ1" target="_blank" rel="noopener noreferrer" class="btn-whatsapp" id="learn-cta">
+            👑 JOIN IMPORTPRENEUR VIP ON WHATSAPP
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         Books & Guides Section (With E-Book Downloads & Upload)
+         ==================================================================== -->
+    <section id="books" class="section section-surface">
+      <div class="container">
+        <div class="text-center">
+          <span class="eyebrow" id="books-eyebrow">Self-paced learning</span>
+          <h2 class="section-title" id="books-title">Import Books & Guides</h2>
+          <p class="section-desc" id="books-intro">
+            Practical e-books to build your import knowledge, at your own pace.
+          </p>
+        </div>
+
+        <!-- Interactive Search & Category Filter Pills -->
+        <div class="books-filter-container">
+          <div class="books-search-wrapper">
+            <span class="search-icon">🔍</span>
+            <input type="text" id="book-search" class="book-search-input" placeholder="Search by title, chapter or topic (e.g. HSN, DGFT, Incoterms, Valuation)..." oninput="handleBookSearch(this.value)" />
+            <button id="book-search-clear" class="search-clear-btn" style="display: none;" onclick="clearBookSearch()">✕</button>
+          </div>
+
+          <div class="filter-pills" id="book-filter-pills">
+            <button class="filter-pill active" data-category="all" onclick="filterBooks('all')">All Handbooks (10)</button>
+            <button class="filter-pill" data-category="customs" onclick="filterBooks('customs')">🛃 Customs & Clearance</button>
+            <button class="filter-pill" data-category="docs" onclick="filterBooks('docs')">📑 Documentation & Compliance</button>
+            <button class="filter-pill" data-category="costing" onclick="filterBooks('costing')">💰 Costing & Logistics</button>
+            <button class="filter-pill" data-category="tech" onclick="filterBooks('tech')">🤖 AI & Starter</button>
+          </div>
+
+          <div class="books-count-status" id="books-count-status">
+            Showing 10 of 10 official handbooks
+          </div>
+        </div>
+
+        <div class="books-grid" id="books-grid">
+          <!-- 10 Books populated dynamically via JS -->
+        </div>
+
+        <p class="text-center" style="margin-top: 2rem; font-size: 0.875rem; color: var(--muted-foreground);" id="books-note">
+          <!-- Populated dynamically -->
+        </p>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         Interactive Customs Duty & Landed Cost Calculator Section
+         ==================================================================== -->
+    <section id="calculator" class="section">
+      <div class="container">
+        <div class="text-center">
+          <span class="eyebrow" id="calc-eyebrow">Practical Tools</span>
+          <h2 class="section-title" id="calc-title">🧮 Interactive Customs Duty & Landed Cost Calculator</h2>
+          <p class="section-desc" id="calc-intro">
+            Estimate Assessable Value, BCD, Social Welfare Surcharge (SWS), IGST and total landed cost according to Indian Customs Valuation Rules.
+          </p>
+        </div>
+
+        <div class="calc-grid">
+          <!-- Inputs Card -->
+          <div class="calc-card">
+            <h3 style="font-size: 1.125rem; font-weight: 800; color: var(--navy); margin-bottom: 1.25rem;">
+              Shipment Parameters & Tariff Rates
+            </h3>
+
+            <!-- CIF Value -->
+            <div class="calc-field-group">
+              <label class="form-label" id="calc-cif-label">Assessable Value / CIF Invoice (₹)</label>
+              <div style="position: relative;">
+                <input type="number" id="calc-cif" class="form-input" value="100000" min="0" step="1000" oninput="calculateLandedCost()" />
+              </div>
+              <div class="calc-presets">
+                <span style="font-size: 0.75rem; color: var(--muted-foreground); align-self: center;">Quick Value:</span>
+                <button type="button" class="preset-btn" onclick="setCalcValue('cif', 50000)">₹50,000</button>
+                <button type="button" class="preset-btn" onclick="setCalcValue('cif', 100000)">₹1,00,000</button>
+                <button type="button" class="preset-btn" onclick="setCalcValue('cif', 500000)">₹5,00,000</button>
+                <button type="button" class="preset-btn" onclick="setCalcValue('cif', 1000000)">₹10,00,000</button>
+              </div>
+            </div>
+
+            <!-- BCD Rate -->
+            <div class="calc-field-group">
+              <div style="display: flex; justify-content: space-between;">
+                <label class="form-label" id="calc-bcd-label">Basic Customs Duty (BCD %)</label>
+                <span id="calc-bcd-display" style="font-weight: 800; color: var(--gold);">10%</span>
+              </div>
+              <input type="range" id="calc-bcd-slider" min="0" max="40" step="0.5" value="10" style="width: 100%; accent-color: var(--gold); margin: 0.5rem 0;" oninput="syncBcdSlider(this.value)" />
+              <div class="calc-presets">
+                <span style="font-size: 0.75rem; color: var(--muted-foreground); align-self: center;">Tariff Presets:</span>
+                <button type="button" class="preset-btn" onclick="setCalcBcd(0)">Zero (0%)</button>
+                <button type="button" class="preset-btn" onclick="setCalcBcd(7.5)">Machinery (7.5%)</button>
+                <button type="button" class="preset-btn" onclick="setCalcBcd(10)">Electronics (10%)</button>
+                <button type="button" class="preset-btn" onclick="setCalcBcd(15)">Chemicals (15%)</button>
+                <button type="button" class="preset-btn" onclick="setCalcBcd(20)">Consumer (20%)</button>
+              </div>
+            </div>
+
+            <!-- IGST Rate -->
+            <div class="calc-field-group">
+              <label class="form-label" id="calc-igst-label">IGST Rate (%)</label>
+              <select id="calc-igst" class="form-select" onchange="calculateLandedCost()">
+                <option value="0">0% (Exempt)</option>
+                <option value="5">5% (Essential Goods)</option>
+                <option value="12">12% (Standard Lower)</option>
+                <option value="18" selected>18% (Standard EXIM Rate)</option>
+                <option value="28">28% (Luxury / Automobiles)</option>
+              </select>
+            </div>
+
+            <!-- SWS & Clearance -->
+            <div class="calc-2col-row">
+              <div class="calc-field-group">
+                <label class="form-label" id="calc-sws-label">SWS Surcharge (10% of BCD)</label>
+                <select id="calc-sws" class="form-select" onchange="calculateLandedCost()">
+                  <option value="1" selected>Applicable (10%)</option>
+                  <option value="0">Exempt (0%)</option>
+                </select>
+              </div>
+              <div class="calc-field-group">
+                <label class="form-label" id="calc-clearance-label">Port Clearance / CHA (₹)</label>
+                <input type="number" id="calc-clearance" class="form-input" value="15000" min="0" step="500" oninput="calculateLandedCost()" />
+              </div>
+            </div>
+          </div>
+
+          <!-- Output Statement Card -->
+          <div class="calc-result-card">
+            <div>
+              <div style="display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid rgba(255,255,255,0.15); padding-bottom: 1rem; margin-bottom: 1rem;">
+                <h3 style="font-size: 1.125rem; font-weight: 800; color: #ffffff;" id="calc-summary-title">Official Duty Assessment</h3>
+                <span style="font-size: 0.75rem; background: rgba(245, 158, 11, 0.2); color: var(--gold-bright); padding: 2px 8px; border-radius: 4px; font-weight: 700;">CBIC Rules</span>
+              </div>
+
+              <div class="calc-stat-row">
+                <span id="row-cif-label">Assessable Value (CIF)</span>
+                <span id="res-cif" style="font-weight: 700;">₹1,00,000</span>
+              </div>
+              <div class="calc-stat-row">
+                <span id="row-bcd-label">Basic Customs Duty (BCD)</span>
+                <span id="res-bcd" style="font-weight: 700;">₹10,000</span>
+              </div>
+              <div class="calc-stat-row">
+                <span id="row-sws-label">Social Welfare Surcharge (SWS 10%)</span>
+                <span id="res-sws" style="font-weight: 700;">₹1,000</span>
+              </div>
+              <div class="calc-stat-row">
+                <span id="row-base-igst-label">Assessable Base for IGST</span>
+                <span id="res-base-igst" style="font-weight: 700;">₹1,11,000</span>
+              </div>
+              <div class="calc-stat-row">
+                <span id="row-igst-label">IGST (18%)</span>
+                <span id="res-igst" style="font-weight: 700;">₹19,980</span>
+              </div>
+              <div class="calc-stat-row highlight">
+                <span id="row-total-duty-label">⚡ Total Customs Duty Payable</span>
+                <span id="res-total-duty" style="font-size: 1.125rem; font-weight: 900;">₹30,980</span>
+              </div>
+              <div class="calc-stat-row">
+                <span id="row-clearance-label">Port Logistics & CHA Charges</span>
+                <span id="res-clearance" style="font-weight: 700;">₹15,000</span>
+              </div>
+              <div class="calc-stat-row grand-total">
+                <span id="row-landed-label">🚢 Total Landed Cost</span>
+                <span id="res-total-landed" style="color: #10b981;">₹1,45,980</span>
+              </div>
+
+              <div class="calc-duty-badge" id="res-effective-rate">
+                Effective Customs Duty Burden: 30.98% of CIF
+              </div>
+            </div>
+
+            <div style="margin-top: 1.5rem; display: flex; flex-direction: column; gap: 0.625rem;">
+              <button class="btn-whatsapp" style="width: 100%; justify-content: center; font-size: 0.875rem;" onclick="copyCostingBreakdown()">
+                📋 Copy Costing Breakdown
+              </button>
+              <button class="btn-subtle-outline" style="width: 100%; justify-content: center; font-size: 0.8125rem; color: #ffffff; border-color: rgba(255,255,255,0.2); background: transparent;" onclick="askMentorAboutCosting()">
+                ❓ Have Mentor Verify This Costing (₹500)
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         About Mentor Section
+         ==================================================================== -->
+    <section id="mentor" class="section section-navy">
+      <div class="container mentor-grid">
+        <div>
+          <span class="eyebrow" style="color: var(--gold-bright);" id="mentor-eyebrow">Unique positioning</span>
+          <h2 class="section-title" id="mentor-title">Learn From Practical Industry Experience — Not Just Theory.</h2>
+          <div style="margin-top: 1.5rem; display: flex; flex-direction: column; gap: 1rem; color: var(--navy-muted); font-size: 1.0625rem; line-height: 1.6;">
+            <p id="mentor-p1"></p>
+            <p id="mentor-p2"></p>
+            <p id="mentor-p3"></p>
+          </div>
+        </div>
+
+        <div class="mentor-card">
+          <div class="mentor-header">
+            <span class="mentor-avatar">K</span>
+            <div>
+              <h3 class="mentor-name" id="mentor-name">Krishnakumar</h3>
+              <p class="mentor-role" id="mentor-role">Import & Customs Documentation Mentor</p>
+            </div>
+          </div>
+          <blockquote class="mentor-quote" id="mentor-quote">
+            30 years of logistics experience, with practical exposure to Customs, EXIM processes, documentation and international logistics.
+          </blockquote>
+          <div style="margin-top: 2rem;">
+            <a href="https://chat.whatsapp.com/FYZv7piu46iLFJYe3qUAQ1" target="_blank" rel="noopener noreferrer" class="btn-whatsapp" style="width: 100%; text-align: center;" id="mentor-cta">
+              👑 JOIN IMPORTPRENEUR VIP
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         Ask the Mentor & Consultation Section
+         ==================================================================== -->
+    <section id="consult" class="section section-surface">
+      <div class="container">
+        <div class="text-center">
+          <span class="eyebrow" id="consult-eyebrow">Expert Help</span>
+          <h2 class="section-title" id="consult-title">Ask the Mentor</h2>
+          <p class="section-desc" id="consult-intro">
+            Get a personal reply to your import question, or book a one-to-one session with Mentor Krishnakumar.
+          </p>
+        </div>
+
+        <div class="consult-grid">
+          <!-- Ask a Question Card -->
+          <div class="service-card">
+            <span class="service-icon">❓</span>
+            <h3 class="card-title" style="margin-top: 1.25rem; font-size: 1.25rem;" id="q-title">Ask a Question</h3>
+            <div class="service-price">
+              <span class="price-amount" id="q-price">₹500</span>
+              <span class="price-unit" id="q-unit">per question</span>
+            </div>
+            <p class="service-sub" id="q-sub">Collected in two parts</p>
+            <p class="card-desc" id="q-desc">Submit your question through the form and receive a written reply from the mentor.</p>
+            <ul class="service-stages" id="q-stages">
+              <!-- Populated dynamically -->
+            </ul>
+            <p class="refund-notice" id="q-paynote">If your question is not answered, or is irrelevant, the amount you paid is fully refunded.</p>
+            <button class="btn-navy" style="margin-top: 1.5rem; width: 100%;" onclick="openQuestionModal()" id="q-btn">
+              Submit a Question
+            </button>
+          </div>
+
+          <!-- 1:1 Consultation Card -->
+          <div class="service-card">
+            <span class="service-icon">📹</span>
+            <h3 class="card-title" style="margin-top: 1.25rem; font-size: 1.25rem;" id="c-title">One-to-One Consultation</h3>
+            <div class="service-price">
+              <span class="price-amount" id="c-price">₹1,000</span>
+              <span class="price-unit" id="c-unit">per session</span>
+            </div>
+            <p style="margin-top: 0.5rem; font-size: 0.875rem; font-weight: 700; color: var(--foreground);" id="c-duration">⏱️ 30 minutes</p>
+            <p class="card-desc" id="c-desc">Book a private session to discuss your import documentation, Customs or compliance doubts.</p>
+            <p class="refund-notice" style="margin-top: auto;" id="c-paynote">Pay only after your appointment is confirmed.</p>
+            <button class="btn-navy" style="margin-top: 1.5rem; width: 100%;" onclick="openConsultModal()" id="c-btn">
+              Book a Consultation
+            </button>
+          </div>
+        </div>
+
+        <p class="text-center" style="margin-top: 2rem; font-size: 0.875rem; color: var(--muted-foreground);" id="consult-note">
+          Questions cost ₹500 in total — ₹250 when you log it and ₹250 when you collect the answer. Anything unanswered or irrelevant is refunded in full.
+        </p>
+
+        <!-- AI Question Brief Helper -->
+        <div class="brief-box">
+          <div class="brief-header">
+            <span class="brief-icon">📄</span>
+            <h3 style="font-size: 1.25rem; font-weight: 800; color: var(--navy);" id="brief-title">Prepare your question brief</h3>
+          </div>
+          <p class="card-desc" style="margin-top: 0.75rem;" id="brief-intro">
+            Describe your import or Customs issue in your own words. Our AI helper turns it into a clear brief with key details.
+          </p>
+
+          <!-- Interactive Sample Prompt Chips -->
+          <div class="sample-chips">
+            <span style="font-size: 0.75rem; font-weight: 700; color: var(--muted-foreground); align-self: center;">Try an example:</span>
+            <button type="button" class="sample-chip" onclick="setBriefPrompt('electric-motor')">⚡ Motor HSN Query (Chap 84)</button>
+            <button type="button" class="sample-chip" onclick="setBriefPrompt('missing-incoterm')">📄 Invoice Missing Incoterm</button>
+            <button type="button" class="sample-chip" onclick="setBriefPrompt('container-demurrage')">🚢 Demurrage & Detention</button>
+          </div>
+
+          <textarea id="brief-input" class="brief-textarea" rows="4"></textarea>
+
+          <button class="btn-navy" style="margin-top: 1rem;" onclick="handleGenerateBrief()">
+            <span id="brief-btn-text">Prepare Brief</span>
+          </button>
+
+          <!-- Result Area -->
+          <div id="brief-result" class="brief-result" style="display: none;">
+            <div style="display: flex; align-items: center; justify-content: space-between; gap: 1rem;">
+              <span style="font-weight: 800; color: var(--navy);" id="brief-result-title">Your question brief</span>
+              <div style="display: flex; gap: 0.5rem;">
+                <button class="btn-outline" style="padding: 0.375rem 0.75rem; font-size: 0.75rem;" id="brief-copy-btn" onclick="copyBriefText()">Copy brief</button>
+                <button class="btn-navy" style="padding: 0.375rem 0.75rem; font-size: 0.75rem;" id="brief-use-btn" onclick="useBriefInQuestion()">Use in Question Form</button>
+              </div>
+            </div>
+            <pre class="brief-pre" id="brief-output"></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         Who Should Join (Audience)
+         ==================================================================== -->
+    <section id="audience" class="section">
+      <div class="container">
+        <div class="text-center">
+          <span class="eyebrow" id="audience-eyebrow">Who should join</span>
+          <h2 class="section-title" id="audience-title">Wherever You Are Starting From, You Have a Place Here.</h2>
+        </div>
+
+        <div class="cards-grid" id="audience-grid">
+          <!-- Populated dynamically -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         Learning Philosophy (Comparison Table)
+         ==================================================================== -->
+    <section class="section section-surface">
+      <div class="container">
+        <div class="text-center">
+          <span class="eyebrow" id="comp-eyebrow">Our learning philosophy</span>
+          <h2 class="section-title" id="comp-title">Learn → Apply → Improve → Grow</h2>
+          <p class="section-desc" id="comp-intro">
+            Importpreneur VIP is built around applying what you learn to real shipments, not just collecting information.
+          </p>
+        </div>
+
+        <div class="comparison-table-wrapper">
+          <table class="comparison-table">
+            <thead>
+              <tr>
+                <th id="comp-th-typical">Typical learning</th>
+                <th id="comp-th-vip">Importpreneur VIP</th>
+              </tr>
+            </thead>
+            <tbody id="comp-tbody">
+              <!-- Populated dynamically -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         Community Journey
+         ==================================================================== -->
+    <section class="section">
+      <div class="container">
+        <div class="text-center">
+          <span class="eyebrow" id="journey-eyebrow">Community experience</span>
+          <h2 class="section-title" id="journey-title">Your Importpreneur Learning Journey</h2>
+          <p class="section-desc" id="journey-intro">
+            A community is more valuable when knowledge can be discussed, questioned and applied.
+          </p>
+        </div>
+
+        <div class="journey-grid" id="journey-grid">
+          <!-- 7 Steps populated dynamically -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         CTA Banner
+         ==================================================================== -->
+    <section class="section section-navy" style="background: linear-gradient(135deg, #0b172a 0%, #1e293b 100%);">
+      <div class="container text-center">
+        <h2 class="section-title" style="color: #ffffff;" id="banner-title">🚢 Your Importpreneur Journey Starts With One Step.</h2>
+        <p class="section-desc" style="color: rgba(255, 255, 255, 0.85); margin-top: 1rem;" id="banner-p1"></p>
+        <p class="section-desc" style="color: rgba(255, 255, 255, 0.85); margin-top: 0.5rem;" id="banner-p2"></p>
+        
+        <div style="margin-top: 2rem;">
+          <a href="https://chat.whatsapp.com/FYZv7piu46iLFJYe3qUAQ1" target="_blank" rel="noopener noreferrer" class="btn-whatsapp" id="banner-cta">
+            👑 JOIN IMPORTPRENEUR VIP ON WHATSAPP
+          </a>
+          <p style="margin-top: 0.75rem; font-size: 0.8125rem; color: rgba(255, 255, 255, 0.6);" id="banner-micro"></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         FAQ Section
+         ==================================================================== -->
+    <section id="faq" class="section section-surface">
+      <div class="container">
+        <div class="text-center">
+          <span class="eyebrow" id="faq-eyebrow">FAQ</span>
+          <h2 class="section-title" id="faq-title">Questions People Ask Before Joining</h2>
+        </div>
+
+        <div class="faq-search-wrapper">
+          <input type="text" id="faq-search" class="faq-search-input" placeholder="🔍 Search FAQ questions (e.g. refund, WhatsApp, beginners, payment)..." oninput="handleFaqSearch(this.value)" />
+        </div>
+
+        <div class="faq-list" id="faq-list">
+          <!-- Populated dynamically via JS -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ======================================================================
+       Footer
+       ====================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="brand">
+          <span class="brand-icon">⚓</span>
+          Importpreneur <span>VIP</span>
+        </div>
+        <a href="https://chat.whatsapp.com/FYZv7piu46iLFJYe3qUAQ1" target="_blank" rel="noopener noreferrer" class="btn-whatsapp sm" id="footer-cta">
+          👑 JOIN IMPORTPRENEUR VIP
+        </a>
+      </div>
+
+      <p class="footer-disclaimer" id="footer-disclaimer"></p>
+      <p style="margin-top: 1.5rem; text-align: center; font-size: 0.8125rem; color: rgba(255, 255, 255, 0.4);" id="footer-rights"></p>
+    </div>
+  </footer>
+
+  <!-- ======================================================================
+       Sticky Mobile CTA
+       ====================================================================== -->
+  <div class="sticky-cta">
+    <a href="https://chat.whatsapp.com/FYZv7piu46iLFJYe3qUAQ1" target="_blank" rel="noopener noreferrer" class="btn-whatsapp" style="width: 100%; box-shadow: 0 10px 25px rgba(0,0,0,0.3);" id="sticky-btn">
+      👑 JOIN VIP ON WHATSAPP
+    </a>
+  </div>
+
+  <!-- ======================================================================
+       MODAL 1: Book Details, Download & Owner Upload
+       ====================================================================== -->
+  <div class="modal-backdrop" id="book-modal">
+    <div class="modal-window wide">
+      <button class="modal-close" onclick="closeModals()" aria-label="Close">✕</button>
+
+      <div class="modal-book-layout">
+        <!-- Sidebar / 3D Cover & Actions -->
+        <div class="modal-book-sidebar">
+          <div class="modal-book-cover-wrap">
+            <img id="modal-book-cover" src="" alt="Book Cover" />
+          </div>
+
+          <div style="margin-top: 0.25rem;">
+            <div style="display: flex; align-items: baseline; gap: 0.5rem;">
+              <span id="modal-book-price" style="font-size: 1.5rem; font-weight: 800; color: var(--navy);"></span>
+              <span id="modal-book-list" style="font-size: 0.875rem; text-decoration: line-through; color: var(--subtle);"></span>
+              <span id="modal-book-discount" class="discount-pill"></span>
+            </div>
+            <div style="margin-top: 0.5rem; display: flex; flex-wrap: wrap; gap: 0.375rem;">
+              <span id="modal-book-pages" style="background: rgba(11,23,42,0.08); color: var(--navy); padding: 2px 8px; border-radius: 4px; font-size: 0.75rem; font-weight: 700;"></span>
+              <span style="background: rgba(16, 185, 129, 0.12); color: #047857; padding: 2px 8px; border-radius: 4px; font-size: 0.75rem; font-weight: 700;">✓ Instant PDF</span>
+            </div>
+          </div>
+
+          <!-- Direct Download & View Buttons -->
+          <div class="modal-book-sidebar-actions">
+            <button id="modal-book-download" class="btn-navy" style="width: 100%; justify-content: center; font-size: 0.875rem;" onclick="handleModalDownload()">
+              ⬇️ Download Full PDF
+            </button>
+            <a id="modal-book-preview" href="#" class="btn-outline" target="_blank" style="width: 100%; justify-content: center; font-size: 0.875rem;">
+              👁️ Open in Full Tab
+            </a>
+            <a id="modal-book-pay" href="#" target="_blank" rel="noopener noreferrer" class="btn-whatsapp" style="display: none; justify-content: center; font-size: 0.875rem;">
+              Pay with Razorpay
+            </a>
+          </div>
+        </div>
+
+        <!-- Right Side: Content & Tabs -->
+        <div class="modal-book-content">
+          <h3 id="modal-book-title" style="font-size: 1.375rem; font-weight: 800; color: var(--navy); line-height: 1.25;"></h3>
+          <p id="modal-book-tagline" style="margin-top: 0.25rem; font-size: 0.875rem; font-weight: 600; color: var(--gold);"></p>
+          <p id="modal-book-desc" style="margin-top: 0.5rem; font-size: 0.875rem; color: var(--muted-foreground); line-height: 1.5;"></p>
+
+          <!-- Tabs Header -->
+          <div class="modal-tabs">
+            <button class="modal-tab-btn active" onclick="switchBookTab('chapters')" id="tab-btn-chapters">📚 Syllabus & Chapters</button>
+            <button class="modal-tab-btn" onclick="switchBookTab('pdf')" id="tab-btn-pdf">📑 Read PDF Online</button>
+            <button class="modal-tab-btn" onclick="switchBookTab('sample')" id="tab-btn-sample">📖 Mentor Checklist</button>
+            <button class="modal-tab-btn" onclick="switchBookTab('takeaways')" id="tab-btn-takeaways">💡 What You Learn</button>
+            <button class="modal-tab-btn" onclick="switchBookTab('upload')" id="tab-btn-upload">📤 Owner Upload</button>
+          </div>
+
+          <!-- Tab 1: Chapters -->
+          <div class="tab-pane active" id="pane-chapters">
+            <ul class="chapter-list" id="modal-chapter-list"></ul>
+          </div>
+
+          <!-- Tab 2: Embedded PDF Viewer -->
+          <div class="tab-pane" id="pane-pdf">
+            <div class="pdf-viewer-wrap">
+              <iframe id="modal-pdf-frame" src="" style="width: 100%; height: 100%; border: none;"></iframe>
+            </div>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 0.5rem; font-size: 0.75rem; color: var(--muted-foreground);">
+              <span>💡 Embedded publication edition with full typography and diagrams</span>
+              <a href="#" id="modal-pdf-fullscreen" target="_blank" style="color: var(--gold); font-weight: 700; text-decoration: underline;">Fullscreen Tab ↗</a>
+            </div>
+          </div>
+
+          <!-- Tab 3: Sample Excerpt -->
+          <div class="tab-pane" id="pane-sample">
+            <div class="sample-box" id="modal-sample-box"></div>
+          </div>
+
+          <!-- Tab 3: Key Learnings -->
+          <div class="tab-pane" id="pane-takeaways">
+            <ul class="takeaway-list" id="modal-takeaway-list"></ul>
+          </div>
+
+          <!-- Tab 4: Owner Upload -->
+          <div class="tab-pane" id="pane-upload">
+            <div style="background: var(--surface); border: 1px dashed var(--border-strong); border-radius: var(--radius-lg); padding: 1.25rem;">
+              <p style="font-size: 0.8125rem; font-weight: 700; color: var(--navy); margin-bottom: 0.25rem;">
+                📤 Upload & Replace This E-Book PDF
+              </p>
+              <p style="font-size: 0.75rem; color: var(--muted-foreground); margin-bottom: 0.875rem;" id="modal-upload-instruction">
+                Select your finalized PDF file from your device, or place it directly into the <code>ebooks/</code> folder.
+              </p>
+              <label style="display: flex; align-items: center; justify-content: center; gap: 0.5rem; padding: 0.875rem; border: 1px dashed var(--navy); border-radius: 8px; cursor: pointer; background: #ffffff; font-size: 0.8125rem; font-weight: 700; color: var(--navy);">
+                📂 Browse & Upload PDF
+                <input type="file" accept="application/pdf" style="display: none;" onchange="handleBookUpload(event)" />
+              </label>
+              <div id="book-upload-status" style="display: none; margin-top: 0.75rem; padding: 0.625rem; background: var(--success-bg); color: #047857; border: 1px solid rgba(16, 185, 129, 0.3); border-radius: 8px; font-size: 0.75rem;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================================================================
+       MODAL 2: Ask a Question
+       ====================================================================== -->
+  <div class="modal-backdrop" id="question-modal">
+    <div class="modal-window">
+      <button class="modal-close" onclick="closeModals()" aria-label="Close">✕</button>
+
+      <div id="question-form">
+        <h3 style="font-size: 1.25rem; font-weight: 800; color: var(--navy);">Ask Mentor Krishnakumar</h3>
+        <p style="font-size: 0.8125rem; color: var(--muted-foreground); margin-top: 0.25rem;">
+          Log your question for ₹250. The remaining ₹250 is collected upon receiving your answer.
+        </p>
+
+        <form onsubmit="handleQuestionSubmit(event)" style="margin-top: 1.25rem;">
+          <div class="form-group">
+            <label class="form-label">Full Name</label>
+            <input type="text" class="form-input" id="q-form-name" required placeholder="e.g. Rahul Sharma" />
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">WhatsApp Number</label>
+            <input type="tel" class="form-input" id="q-form-contact" required placeholder="+91 98765 43210" />
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Your Import Question / Brief</label>
+            <textarea class="form-textarea" id="q-form-text" rows="4" required placeholder="Describe your Customs query, HSN doubt, or import documentation challenge..."></textarea>
+          </div>
+
+          <div style="margin-top: 1rem; padding: 0.75rem; background: var(--gold-soft); border-radius: 8px; font-size: 0.75rem; color: var(--gold-foreground);">
+            🛡️ <strong>100% Refund Guarantee:</strong> If your question is not answered, or is irrelevant, the amount you paid is fully refunded.
+          </div>
+
+          <button type="submit" class="btn-navy" style="width: 100%; margin-top: 1.25rem;">
+            Submit Question (₹250 Log Fee)
+          </button>
+        </form>
+      </div>
+
+      <div id="question-success" style="display: none;"></div>
+    </div>
+  </div>
+
+  <!-- ======================================================================
+       MODAL 3: Book 1:1 Consultation
+       ====================================================================== -->
+  <div class="modal-backdrop" id="consult-modal">
+    <div class="modal-window">
+      <button class="modal-close" onclick="closeModals()" aria-label="Close">✕</button>
+
+      <div id="consult-form">
+        <h3 style="font-size: 1.25rem; font-weight: 800; color: var(--navy);">Book 1:1 Consultation</h3>
+        <p style="font-size: 0.8125rem; color: var(--muted-foreground); margin-top: 0.25rem;">
+          30-minute private consultation session with Mentor Krishnakumar (₹1,000).
+        </p>
+
+        <form onsubmit="handleConsultSubmit(event)" style="margin-top: 1.25rem;">
+          <div class="form-group">
+            <label class="form-label">Full Name</label>
+            <input type="text" class="form-input" id="c-form-name" required placeholder="e.g. Priya Kumar" />
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">WhatsApp Number</label>
+            <input type="tel" class="form-input" id="c-form-contact" required placeholder="+91 98765 43210" />
+          </div>
+
+          <div class="form-row-2col">
+            <div class="form-group" style="margin-top: 0;">
+              <label class="form-label">Preferred Date</label>
+              <input type="date" class="form-input" required />
+            </div>
+            <div class="form-group" style="margin-top: 0;">
+              <label class="form-label">Time Slot</label>
+              <select class="form-select">
+                <option>Morning (10 AM - 1 PM)</option>
+                <option>Afternoon (2 PM - 5 PM)</option>
+                <option>Evening (6 PM - 9 PM)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Consultation Topic</label>
+            <textarea class="form-textarea" rows="3" placeholder="Customs clearance delays, HSN dispute, DGFT compliance, landed cost review..."></textarea>
+          </div>
+
+          <div style="margin-top: 1rem; padding: 0.75rem; background: var(--surface-alt); border-radius: 8px; font-size: 0.75rem; color: var(--navy);">
+            📅 <strong>Confirmation Notice:</strong> Pay only after your appointment time and Google Meet link are confirmed with the mentor.
+          </div>
+
+          <button type="submit" class="btn-navy" style="width: 100%; margin-top: 1.25rem;">
+            Request Appointment Slot
+          </button>
+        </form>
+      </div>
+
+      <div id="consult-success" style="display: none;"></div>
+    </div>
+  </div>
+
+  <!-- Floating Toast Notifications Container -->
+  <div id="toast-container" class="toast-container"></div>
+
+  <!-- Floating Back to Top Button -->
+  <button id="back-to-top" class="back-to-top" onclick="scrollToTop()" title="Back to top" aria-label="Back to top">↑</button>
+
+  <!-- Scripts -->
+  <script src="js/translations.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "name": "importpreneur-vip",
+  "version": "1.0.0",
+  "description": "Importpreneur VIP - Practical Import & Customs Learning Community",
+  "main": "index.html",
+  "scripts": {
+    "start": "node scripts/serve.cjs",
+    "generate:ebooks": "node scripts/generate-pro-ebooks.cjs"
+  },
+  "keywords": [
+    "import",
+    "customs",
+    "exim",
+    "hsn",
+    "landed-cost",
+    "bilingual"
+  ],
+  "author": "Mentor Krishnakumar",
+  "license": "ISC"
+}
