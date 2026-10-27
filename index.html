@@ -199,25 +199,24 @@
         <div class="books-filter-container">
           <div class="books-search-wrapper">
             <span class="search-icon">🔍</span>
-            <input type="text" id="book-search" class="book-search-input" placeholder="Search by title, chapter or topic (e.g. HSN, DGFT, Incoterms, Valuation)..." oninput="handleBookSearch(this.value)" />
+            <input type="text" id="book-search" class="book-search-input" placeholder="Search by title, chapter or topic (e.g. AEO, CAROTAR, Valuation, Incoterms, MOOWR)..." oninput="handleBookSearch(this.value)" />
             <button id="book-search-clear" class="search-clear-btn" style="display: none;" onclick="clearBookSearch()">✕</button>
           </div>
 
           <div class="filter-pills" id="book-filter-pills">
-            <button class="filter-pill active" data-category="all" onclick="filterBooks('all')">All Handbooks (10)</button>
+            <button class="filter-pill active" data-category="all" onclick="filterBooks('all')">All Handbooks (7)</button>
             <button class="filter-pill" data-category="customs" onclick="filterBooks('customs')">🛃 Customs & Clearance</button>
-            <button class="filter-pill" data-category="docs" onclick="filterBooks('docs')">📑 Documentation & Compliance</button>
-            <button class="filter-pill" data-category="costing" onclick="filterBooks('costing')">💰 Costing & Logistics</button>
-            <button class="filter-pill" data-category="tech" onclick="filterBooks('tech')">🤖 AI & Starter</button>
+            <button class="filter-pill" data-category="docs" onclick="filterBooks('docs')">📑 Documentation & FTA</button>
+            <button class="filter-pill" data-category="schemes" onclick="filterBooks('schemes')">💰 Schemes & Warehousing</button>
           </div>
 
           <div class="books-count-status" id="books-count-status">
-            Showing 10 of 10 official handbooks
+            Showing 7 of 7 official handbooks
           </div>
         </div>
 
         <div class="books-grid" id="books-grid">
-          <!-- 10 Books populated dynamically via JS -->
+          <!-- 7 Books populated dynamically via JS -->
         </div>
 
         <p class="text-center" style="margin-top: 2rem; font-size: 0.875rem; color: var(--muted-foreground);" id="books-note">
@@ -653,9 +652,9 @@
 
           <!-- Direct Download & View Buttons -->
           <div class="modal-book-sidebar-actions">
-            <button id="modal-book-download" class="btn-navy" style="width: 100%; justify-content: center; font-size: 0.875rem;" onclick="handleModalDownload()">
+            <a id="modal-book-download" href="#" download="" class="btn-navy" style="width: 100%; justify-content: center; font-size: 0.875rem; text-decoration: none;">
               ⬇️ Download Full PDF
-            </button>
+            </a>
             <a id="modal-book-preview" href="#" class="btn-outline" target="_blank" style="width: 100%; justify-content: center; font-size: 0.875rem;">
               👁️ Open in Full Tab
             </a>

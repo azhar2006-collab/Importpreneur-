@@ -123,265 +123,229 @@ const TRANSLATIONS = {
       emailNote: "You receive instant download access + email confirmation.",
       items: [
         {
-          slug: "import-documentation-handbook",
-          title: "Import Documentation Handbook",
-          desc: "A step-by-step guide to the documents every importer needs from purchase order to customs out-of-charge.",
-          pages: "52 Pages",
-          tagline: "A Practical Guide to Smoother, Faster and Compliant Imports",
+          slug: "aeo-programme-guide",
+          title: "Authorised Economic Operator (AEO)",
+          desc: "A comprehensive guide to the AEO certification framework, tiers (T1, T2, T3, LO), eligibility criteria, application process, and customs facilitation benefits.",
+          pages: "19 Pages",
+          tagline: "WCO SAFE Framework & Indian Customs (CBIC) Trusted Trader Certification",
+          pdfUrl: "ebooks/aeo-programme-guide.pdf",
+          downloadName: "AEO - Authorised Economic Operator.pdf",
           chapters: [
-            "Chapter 1: The Lifecycle of an Import Shipment & Document Timeline",
-            "Chapter 2: Purchase Order, Proforma Invoice & Sales Contract Clauses",
-            "Chapter 3: Commercial Invoice (Incoterms, HSN, Currency, Disclosures)",
-            "Chapter 4: Packing List vs Commercial Invoice Discrepancies",
-            "Chapter 5: Bill of Lading (B/L) & Air Waybill (AWB): Original, Seaway Bill & Surrender",
-            "Chapter 6: Country of Origin (COO), Preferential Trade Agreements & FTA certificates",
-            "Chapter 7: Bill of Entry (BE) and ICEGATE Filing Basics",
-            "Chapter 8: Post-Clearance Documentation & Bank Realization (IDPMS / EDPMS)"
+            "1. AEO Programme — Introduction and Core Concepts",
+            "2. International Evolution of AEO (WCO SAFE Framework History)",
+            "3. AEO Programme in India — Legal Framework & Administration",
+            "4. AEO Tiers — Detailed Explanation of T1, T2, T3 and LO",
+            "5. Validity Period and Renewal Process",
+            "6. Eligibility Criteria and Detailed Parameters",
+            "7. Required Documents and Annexures",
+            "8. Application Procedure — Step-by-Step Guide",
+            "9. Tier-Wise Benefits — Importers, Exporters & CHAs",
+            "10. Mutual Recognition Agreements (MRAs)",
+            "11. Precautions to Maintain AEO Status",
+            "12. Suspension and Revocation — Causes and Remedies",
+            "13. Conclusion",
+            "14. Annexure — Glossary of Terms"
           ],
-          sample: `PRACTICAL CHECKLIST: Commercial Invoice & Packing List Pre-Shipment Audit
-1. Verify exact Incoterm: Ensure FOB, CIF, or CFR states the named port clearly (e.g., "CIF Nhava Sheva, India (Incoterms 2020)").
-2. Match IEC & GSTIN: Confirm Buyer's legal entity name matches your ICEGATE registration.
-3. HSN 8-digit Code: Must be printed on each line item to prevent assessment rejections.
-4. Net Weight vs Gross Weight: Packing list net weight must exactly match invoice descriptions.
-5. Authorized Signature & Stamp: Unsigned supplier invoices are the #1 cause for Customs 1st Check examination queries.`,
+          sample: `WCO SAFE FRAMEWORK & CBIC CIRCULAR 33/2016 EXCERPT:
+The Authorised Economic Operator (AEO) programme is a voluntary certification scheme recognizing reliable, compliant trade partners in the international supply chain.
+Key Benefits:
+- Prioritized Customs Clearance & Lower Physical Examination Rates
+- Direct Port Delivery (DPD) & Deferred Duty Payment
+- Substantial Bank Guarantee Reductions and Fast-Track Dispute Resolution`,
           takeaways: [
-            "Complete 7-stage document checklist from vendor PO to warehouse gate-in",
-            "How to structure Commercial Invoices to pass Customs Valuation Rules",
-            "Solving IDPMS bank payment mismatches and avoiding RBI show-cause notices"
+            "Understanding WCO SAFE Framework & Indian CBIC Circular 33/2016 legal architecture",
+            "Detailed eligibility criteria and documentary checklists for T1, T2, T3 and LO tiers",
+            "Maximizing trade facilitation benefits: green channel routing and bank guarantee waivers"
           ]
         },
         {
-          slug: "hsn-classification-made-simple",
-          title: "HSN Classification Made Simple",
-          desc: "Build confidence in understanding product classification, 8-digit tariff structures and GRI rules.",
-          pages: "44 Pages",
-          tagline: "Master the 8-Digit Tariff Code System and Avoid Reclassification Disputes",
+          slug: "carotar-2020-tamil",
+          title: "CAROTAR 2020 — தோற்று விதிகள் நிர்வாகம்",
+          desc: "Customs (Administration of Rules of Origin under Trade Agreements) Rules, 2020 — Compliance guide for Indian importers claiming FTA preferential tariff rates.",
+          pages: "7 Pages",
+          tagline: "Section 28DA, Customs Act 1962 · Form I · Proof of Origin",
+          pdfUrl: "ebooks/carotar-2020-tamil.pdf",
+          downloadName: "CAROTAR 2020 - தோற்று விதிகள் நிர்வாகம்.pdf",
           chapters: [
-            "Chapter 1: Anatomy of the Harmonized System: Chapter, Heading, Subheading & Tariff Item",
-            "Chapter 2: General Rules for Interpretation (GRI 1 through 6) with Real Cases",
-            "Chapter 3: Essential Character Rule (Rule 3b) for Composite & Set Goods",
-            "Chapter 4: Section Notes and Chapter Notes: The Legal Authority",
-            "Chapter 5: How to File an Advance Ruling (AAR) in Indian Customs",
-            "Chapter 6: Resolving Classification Disputes with the Appraising Group"
+            "அத்தியாயம் 1 — CAROTAR 2020 என்றால் என்ன, ஏன் அறிமுகப்படுத்தப்பட்டது",
+            "அத்தியாயம் 2 — சட்ட அடிப்படை: Section 28DA மற்றும் இறக்குமதியாளரின் கடமைகள்",
+            "அத்தியாயம் 3 — Origin Criteria: பொருட்கள் எவ்வாறு தகுதி பெறுகின்றன",
+            "அத்தியாயம் 4 — Bill of Entry-இல் தேவையான விவரங்கள்",
+            "அத்தியாயம் 5 — Certificate of Origin முதல் Proof of Origin வரை (2025 திருத்தம்)",
+            "அத்தியாயம் 6 — Form I மற்றும் சரிபார்ப்பு செயல்முறை",
+            "அத்தியாயம் 7 — முன்னுரிமை வரி மறுக்கப்படும் சூழ்நிலைகள்",
+            "அத்தியாயம் 8 — CAROTAR நடைமுறை சரிபார்ப்புப் பட்டியல்",
+            "முக்கிய சொற்களஞ்சியம்"
           ],
-          sample: `LEGAL RULE EXCERPT: Applying General Rule of Interpretation (GRI) 3(b)
-When goods consist of different materials or are put up in sets for retail sale:
-- Classification is determined by the component that gives the article its ESSENTIAL CHARACTER.
-- Factors determining essential character include: nature of material, bulk, quantity, weight, value, and the role played by each component in product utility.
-Example: A DIY solar lantern kit containing LED unit, mini panel, and mounting bracket is classified under the LED lighting heading based on its primary function.`,
+          sample: `SECTION 28DA & FORM I STATUTORY DUE DILIGENCE:
+Under CAROTAR 2020, possessing a valid Proof of Origin is no longer sufficient on its own.
+The importer must:
+- Independently verify that goods satisfy Origin Criteria (Wholly Obtained, RVC, CTH, CTSH).
+- Possess all Form I information prior to shipment import.
+- Maintain supporting documents for a statutory period of 5 years.
+- Furnish detailed origin disclosures within 10 working days upon Customs requisition.`,
           takeaways: [
-            "How to correctly apply Section Notes and Chapter Notes before picking a code",
-            "Preventing sudden duty rate revisions and differential duty penalty notices",
-            "Step-by-step procedure to file an Authority for Advance Rulings (AAR) application"
+            "Master legal obligations under Section 28DA of the Customs Act 1962",
+            "Verify Origin Criteria (WO, RVC, CTH, CTSH) before claiming FTA duty benefits",
+            "Complete Form I due diligence to avoid duty rejection and retroactive penalties"
           ]
         },
         {
-          slug: "customs-clearance-guide",
-          title: "Customs Clearance Guide",
-          desc: "Learn the practical flow of import clearance, Turant Customs, and how to avoid port demurrage.",
-          pages: "58 Pages",
-          tagline: "Practical Flow of Import Clearance and How to Avoid Costly Port Delays",
+          slug: "concessional-schemes-tamil",
+          title: "சலுகை இறக்குமதி & ஏற்றுமதி ஊக்குவிப்பு திட்டங்கள்",
+          desc: "Comprehensive guide to Advance Authorization, EPCG, RoDTEP, EOU, and MOOWR duty-concession schemes under Foreign Trade Policy 2023 and Customs regulations.",
+          pages: "11 Pages",
+          tagline: "Advance Authorization · EPCG · RoDTEP · EOU · MOOWR (FTP 2023)",
+          pdfUrl: "ebooks/concessional-schemes-tamil.pdf",
+          downloadName: "சலுகை இறக்குமதி & ஏற்றுமதி ஊக்குவிப்பு திட்டங்கள்.pdf",
           chapters: [
-            "Chapter 1: Port Arrival & Inward Entry (IGM Filing by Shipping Lines)",
-            "Chapter 2: Prior Bill of Entry vs Advance vs Regular Bill of Entry",
-            "Chapter 3: Faceless Assessment: How the Turant Customs System Works",
-            "Chapter 4: RMS (Risk Management System): Green Channel vs Assessment vs Examination",
-            "Chapter 5: Customs Examination Orders: First Check vs Second Check",
-            "Chapter 6: Appraising Queries & How to Draft Legally Sound Written Replies",
-            "Chapter 7: Duty Payment, Out-of-Charge (OOC) and Delivery Order (DO)",
-            "Chapter 8: Port Demurrage & Container Detention: How to Prevent Escalating Charges"
+            "அத்தியாயம் 1 — இந்த திட்டங்கள் ஏன் உள்ளன",
+            "அத்தியாயம் 2 — Advance Authorization Scheme",
+            "அத்தியாயம் 3 — EPCG (Export Promotion Capital Goods) Scheme",
+            "அத்தியாயம் 4 — RoDTEP",
+            "அத்தியாயம் 5 — EOU (Export Oriented Unit)",
+            "அத்தியாயம் 6 — MOOWR (Section 65 Bonded Manufacturing)",
+            "அத்தியாயம் 7 — திட்டங்களை தேர்வு செய்தல் மற்றும் இணைத்தல்",
+            "அத்தியாயம் 8 — பொதுவான இணக்க தவறுகள்",
+            "அத்தியாயம் 9 — நடைமுறை Checklist",
+            "முக்கிய சொற்களஞ்சியம்"
           ],
-          sample: `OPERATIONAL PROTOCOL: Resolving ICEGATE Appraising Queries in Under 24 Hours
-When a Faceless Assessment Group (FAG) officer raises a query on ICEGATE:
-1. Identify the query type: Valuation, Technical Specs, End-Use Undertaking, or Exemption Notification.
-2. Prepare a formal letter on importer company letterhead with IEC and Job number.
-3. Attach supporting technical datasheets, catalog, manufacturer's declaration, or earlier cleared Bills of Entry for the same item.
-4. Upload directly via ICEGATE e-Sanchit with the correct document type code. Prompt response avoids shifting to First Check physical examination!`,
+          sample: `FTP 2023 CONCESSIONAL SCHEMES COMPARISON:
+- Advance Authorization: Duty-free import of raw materials and inputs tied to export production under SION norms.
+- EPCG Scheme: Import capital goods at zero Basic Customs Duty subject to a 6x Specific Export Obligation over 6 years.
+- RoDTEP: Remission of unrefunded embedded taxes (electricity, fuel, local cess) post-export.
+- MOOWR & EOU: Complete manufacturing under customs bond with duty deferment and zero domestic export mandates.`,
           takeaways: [
-            "Filing Prior Bill of Entry to clear goods within 24 hours of vessel docking",
-            "Understanding Faceless Assessment Group (FAG) decision logic",
-            "Negotiating free days with shipping lines to eliminate container detention fees"
+            "Input-output norm (SION) compliance and EODC closure for Advance Authorization",
+            "Specific Export Obligation (SEO) and Average Export Obligation rules under EPCG",
+            "Strategic comparison between MOOWR bonded manufacturing and EOU setup"
           ]
         },
         {
-          slug: "dgft-compliance-basics",
-          title: "DGFT & Compliance Basics",
-          desc: "Understand the fundamental policies, notifications, BIS, EPR, and compliance steps for Indian importers.",
-          pages: "46 Pages",
-          tagline: "Essential Policies, Notifications, and Compliance for Indian Importers",
+          slug: "customs-valuation-tamil",
+          title: "இந்திய கஸ்டம்ஸ் மதிப்பீட்டு வழிகாட்டி",
+          desc: "Assessable Value determination, Rule 10 additions, 6 sequential valuation methods, and Special Valuation Branch (SVB) procedures under Customs Valuation Rules 2007.",
+          pages: "7 Pages",
+          tagline: "Assessable Value முதல் 6 மதிப்பீட்டு முறைகள் வரை (Section 14 & CVR 2007)",
+          pdfUrl: "ebooks/customs-valuation-tamil.pdf",
+          downloadName: "இந்திய கஸ்டம்ஸ் மதிப்பீட்டு வழிகாட்டி.pdf",
           chapters: [
-            "Chapter 1: Importer-Exporter Code (IEC): Linking with GST and DGFT Portal",
-            "Chapter 2: Foreign Trade Policy (FTP) Fundamentals & Categories (Free, Restricted, Prohibited)",
-            "Chapter 3: Compulsory Registration Scheme (CRS), BIS Standards & Testing Requirements",
-            "Chapter 4: EPR (Extended Producer Responsibility) for E-Waste, Plastic & Battery Imports",
-            "Chapter 5: Legal Metrology Declarations for Packaged Commodities",
-            "Chapter 6: Export Promotion Schemes: Advance Authorisation & EPCG Basics"
+            "அத்தியாயம் 1 — Assessable Value: அடிப்படைக் கட்டமைப்பு",
+            "அத்தியாயம் 2 — Transaction Value-உடன் சேர்க்கப்பட வேண்டியவை (Rule 10)",
+            "அத்தியாயம் 3 — Transaction Value ஏற்றுக்கொள்ளப்படாதபோது: 6 மதிப்பீட்டு முறைகள்",
+            "அத்தியாயம் 4 — தொடர்புடைய தரப்பு இறக்குமதி மற்றும் Special Valuation Branch (SVB)",
+            "அத்தியாயம் 5 — Declared Value நிராகரிக்கப்படும் சூழ்நிலைகள் (Rule 12)",
+            "அத்தியாயம் 6 — மதிப்பீட்டு நடைமுறை சரிபார்ப்புப் பட்டியல்",
+            "முக்கிய சொற்களஞ்சியம்"
           ],
-          sample: `REGULATORY MATRIX: Mandatory Indian Compliance Before Import
-- BIS (Bureau of Indian Standards): Compulsory for electronics, steel, toys, and chemicals. Requires factory audit or testing prior to dispatch.
-- EPR (Extended Producer Responsibility): Mandatory CPCB portal registration for packaging, electronic components, and batteries.
-- Legal Metrology (LMPC): Pre-packaged retail goods must carry importer name, address, MRP, manufacturing date, and net quantity labels before Customs clearance.`,
+          sample: `ASSESSABLE VALUE & VALUATION METHODOLOGY:
+Under Section 14 of the Customs Act 1962, duty is computed on the Assessable Value (AV), not solely on the commercial invoice price.
+- AV includes CIF value converted at CBIC notified exchange rates plus 1% landing charges.
+- Rule 10 additions (tooling assists, royalties, freight, and insurance) must be declared.
+- When Transaction Value is questioned under Rule 12, the 6 sequential valuation methods must be applied strictly in order.`,
           takeaways: [
-            "Navigating DGFT restricted lists and online authorization applications",
-            "Step-by-step LMPC packaging compliance to avoid port confiscation",
-            "EPCG and Advance Authorisation duty exemption mechanics"
+            "Calculate CIF assessable value adhering strictly to CBIC exchange rates",
+            "Declare Rule 10 assists and royalties to avoid undervaluation penalties",
+            "Navigate Special Valuation Branch (SVB) questionnaires for related-party imports"
           ]
         },
         {
-          slug: "import-costing-landed-cost",
-          title: "Import Costing & Landed Cost",
-          desc: "Break down the real components that make up your landed import cost, from BCD to CFS charges.",
-          pages: "48 Pages",
-          tagline: "Break Down Real Duties, Freight, Port Surcharges & True Landed Costs",
+          slug: "import-clearance-procedures",
+          title: "இறக்குமதி பயணம் — இந்திய சுங்கத்துறை வழிகாட்டி",
+          desc: "A practical 34-page step-by-step guru-student dialogue covering the complete Indian Customs clearance journey from purchase order to factory gate delivery.",
+          pages: "34 Pages",
+          tagline: "இந்திய சுங்கத்துறையில் இறக்குமதி சரக்கு தீர்வு — முழுமையான வழிகாட்டி",
+          pdfUrl: "ebooks/import-clearance-procedures.pdf",
+          downloadName: "இறக்குமதி பயணம் - இந்திய சுங்கத்துறை வழிகாட்டி.pdf",
           chapters: [
-            "Chapter 1: Assessing CIF Value: Conversion Rates and Customs Exchange Rates",
-            "Chapter 2: Basic Customs Duty (BCD) Calculation Models",
-            "Chapter 3: Social Welfare Surcharge (SWS) & Agriculture Infrastructure Cess (AIDC)",
-            "Chapter 4: IGST Valuation: Determining the Taxable Base",
-            "Chapter 5: Freight Forwarder Local Charges: Terminal Handling (THC), D/O fees, CFS Charges",
-            "Chapter 6: Inland Haulage, Transporter Detention and Hidden Clearance Expenses",
-            "Chapter 7: Building a Reusable Landed Cost Excel Formula for Profit Margins"
+            "முன்னுரை — இரண்டு பேர், ஒரு பயணம்",
+            "பாடம் 1 — ஆர்டர் முதல் ஆவணம் வரை: Incoterms புரிதல்",
+            "பாடம் 2 — தோற்றுவாயில் சரக்கு கையகப்படுத்துதல்: Freight Forwarder & Liner",
+            "பாடம் 3 — கடல் பயணம்: FCL, LCL, Transshipment",
+            "பாடம் 4 — இந்திய துறைமுகத்தில் வருகை: IGM தாக்கல்",
+            "பாடம் 5 — Bill of Entry தாக்கல்: இதயப் பகுதி",
+            "பாடம் 6 — DPD vs CFS: கொள்கலன் எப்படி நகர்கிறது?",
+            "பாடம் 7 — LCL சரக்குகள்: Deconsolidation & Devanning",
+            "பாடம் 8 — வான் வழி இறக்குமதி: Courier Mode vs Cargo Mode",
+            "பாடம் 9 — பரிசோதனை, மதிப்பீடு, வரி செலுத்துதல், Out of Charge",
+            "பாடம் 10 — Demurrage, Detention & தாமதம் தவிர்க்கும் வழிகள்",
+            "பாடம் 11 — சிறப்புத் தலைப்புகள்: AEO, PGA, Duty Schemes",
+            "பாடம் 12 — பொதுவான தவறுகள் & இணக்கம் (Compliance)",
+            "பாடம் 13 — முழு பயண Storyboard: ஒரு பார்வையில்",
+            "சொற்களஞ்சியம் (Glossary)",
+            "இணைப்பு — ஆவணங்கள் சரிபார்ப்பு பட்டியல்",
+            "முடிவுரை"
           ],
-          sample: `LANDED COST CALCULATION BLUEPRINT:
-1. Assessable Value (AV) = CIF in INR (Calculated using CBIC Customs Exchange Rate, NOT bank rate).
-2. Basic Customs Duty (BCD) = AV × BCD Rate (e.g., 7.5% or 10%).
-3. Social Welfare Surcharge (SWS) = 10% of BCD amount.
-4. Total Duty Base for IGST = (AV + BCD + SWS).
-5. Integrated GST (IGST) = Duty Base × GST Rate (e.g., 18%).
-6. Total Government Duty = BCD + SWS + IGST.
-7. Landed Cost = AV + Total Duty + Port CFS charges + DO charges + CHA fee + Inland Freight.`,
+          sample: `GURU BHASKAR & STUDENT DEENA DIALOGUE:
+"An import shipment does not begin when the container boards the vessel; it begins the moment the Purchase Order is issued and the Proforma Invoice arrives with its Incoterm.
+Regardless of whether cargo moves under FOB, CIF, or DDP, the legal importer of record remains your IEC. Filing a Prior Bill of Entry before vessel berthing is essential to avoid crushing demurrage and detention fees."`,
           takeaways: [
-            "Complete mathematical formula to compute landed cost to the rupee",
-            "Distinction between Commercial Exchange Rate vs CBIC Customs Notified Rate",
-            "Claiming full GST Input Tax Credit (ITC) on imported goods using Bill of Entry"
+            "Clear operational understanding of Incoterms 2020 risk and cost allocations",
+            "Filing Prior/Advance Bill of Entry on ICEGATE to achieve instant RMS Green Channel OOC",
+            "Leveraging DPD (Direct Port Delivery) to slash CFS handling costs and container turnaround times"
           ]
         },
         {
-          slug: "exim-terminology-guide",
-          title: "EXIM Terminology Guide",
-          desc: "A quick reference to the key terms and acronyms used in international trade, freight and logistics.",
-          pages: "38 Pages",
-          tagline: "Quick Desk Reference to Key Terms in International Trade, Shipping & Logistics",
+          slug: "second-hand-capital-goods-tamil",
+          title: "பழைய Capital Goods இறக்குமதி & மதிப்பீடு",
+          desc: "Import policy frameworks for second-hand machinery under FTP 2023 Para 2.31, Chartered Engineer Certificate requirements, and customs depreciation valuation.",
+          pages: "10 Pages",
+          tagline: "வரையறை · இறக்குமதிக் கட்டுப்பாடுகள் · depreciation மதிப்பீடு (FTP 2023)",
+          pdfUrl: "ebooks/second-hand-capital-goods-tamil.pdf",
+          downloadName: "பழைய Capital Goods இறக்குமதி & மதிப்பீடு.pdf",
           chapters: [
-            "Chapter 1: Incoterms 2020: FOB, CIF, CFR, EXW, DAP, DDP Deep Dive",
-            "Chapter 2: Shipping & Freight Jargon: FCL, LCL, TEU, FEU, CFS, ICD, NVOCC, MBL vs HBL",
-            "Chapter 3: Port & Customs Terms: IGM, EGM, OOC, LEO, RMS, ICEGATE, CHA, CBIC",
-            "Chapter 4: Financial & Payment Terms: L/C, TT, DA, DP, Bank Guarantee",
-            "Chapter 5: Demurrage vs Detention vs Port Storage: Exact Legal Distinctions"
+            "அத்தியாயம் 1 — Capital Goods என்றால் என்ன (கொள்கை வரையறை)",
+            "அத்தியாயம் 2 — Second-Hand Goods கொள்கை கட்டமைப்பு (Para 2.31)",
+            "அத்தியாயம் 3 — இறக்குமதி கட்டுப்பாடுகள் & கட்டுப்படுத்தப்பட்ட/தடைசெய்யப்பட்ட பட்டியல்",
+            "அத்தியாயம் 4 — Chartered Engineer Certificate தேவை",
+            "அத்தியாயம் 5 — பழைய இயந்திரங்களின் கஸ்டம்ஸ் மதிப்பீடு",
+            "அத்தியாயம் 6 — Depreciation கணக்கீடு — Worked Example",
+            "அத்தியாயம் 7 — EPCG-இன் கீழ் Second-Hand Capital Goods",
+            "அத்தியாயம் 8 — நடைமுறை Checklist",
+            "முக்கிய சொற்களஞ்சியம்"
           ],
-          sample: `CRITICAL TERMS DEFINED:
-- Demurrage: Charges levied by port/terminal for container occupying port land beyond free days.
-- Detention: Charges levied by shipping line for holding container equipment outside the port beyond free days.
-- Bill of Lading (B/L): Document of title issued by carrier confirming receipt of cargo for shipping.
-- Master B/L vs House B/L: Master B/L is issued directly by mainline carrier; House B/L is issued by freight forwarder (NVOCC).
-- Out-of-Charge (OOC): Final statutory order by Customs allowing physical release of goods.`,
+          sample: `FTP PARA 2.31 & CHARTERED ENGINEER CERTIFICATE:
+Import of second-hand capital goods requires an independent Chartered Engineer Certificate (CEC) from the country of supply detailing manufacture year, operational condition, residual life (minimum 5 years recommended), and fair market appraisal.
+Used electronics and IT assets without valid BIS registration remain strictly prohibited under Indian customs laws.`,
           takeaways: [
-            "Clear matrix of all 11 Incoterms 2020 with risk/cost transfer points",
-            "Over 150+ international shipping and customs abbreviations defined",
-            "How to speak the exact language of shipping lines, CHAs, and port officials"
+            "Differentiate between freely importable used machinery and restricted categories",
+            "Calculate allowable customs depreciation under CBEC circular guidelines",
+            "Ensure overseas Chartered Engineer Certificates meet all appraisal audit requirements"
           ]
         },
         {
-          slug: "ai-for-importers",
-          title: "AI for Importers",
-          desc: "Discover practical ways AI can support documentation checks, HSN research and workflow tasks.",
-          pages: "42 Pages",
-          tagline: "Practical Ways AI Can Support Documentation, Research & Workflow Tasks",
+          slug: "warehousing-schemes-comparison-tamil",
+          title: "Bonded Warehouse · FTWZ · SEZ · MOOWR · EOU",
+          desc: "Comprehensive comparative analysis of Private Bonded Warehouses, FTWZ, SEZ, MOOWR, and EOU under Customs Act 1962, SEZ Act 2005, and FTP 2023.",
+          pages: "12 Pages",
+          tagline: "In-Bond உற்பத்தி & வணிக நன்மைகள் — ஒப்பீட்டு குறிப்புகள்",
+          pdfUrl: "ebooks/warehousing-schemes-comparison-tamil.pdf",
+          downloadName: "Bonded Warehouse, FTWZ, SEZ, MOOWR, EOU ஒப்பீடு.pdf",
           chapters: [
-            "Chapter 1: Using AI as a Customs Research Assistant: Limitations & Rules",
-            "Chapter 2: Automated Commercial Invoice vs Packing List Discrepancy Audits",
-            "Chapter 3: AI-Assisted HSN Research: Finding Comparable Rulings and Notes",
-            "Chapter 4: Drafting Professional Technical Letters in Response to Appraising Queries",
-            "Chapter 5: Extracting Key Data from 50-Page Vendor Contracts & Specifications",
-            "Chapter 6: Safety & Privacy: Never Uploading Sensitive Commercial Secrets"
+            "அத்தியாயம் 1 — ஐந்து கட்டமைப்புகளும் என்ன பிரச்சினையைத் தீர்க்கின்றன",
+            "அத்தியாயம் 2 — Customs Bonded Warehouse (Section 58)",
+            "அத்தியாயம் 3 — FTWZ (Free Trade Warehousing Zone)",
+            "அத்தியாயம் 4 — SEZ (Special Economic Zone)",
+            "அத்தியாயம் 5 — MOOWR (Section 65 Bonded Manufacturing)",
+            "அத்தியாயம் 6 — EOU (Export Oriented Unit)",
+            "அத்தியாயம் 7 — In-Bond உற்பத்தி: பக்கம்-பக்கமாக",
+            "அத்தியாயம் 8 — வணிக நன்மைகள்: பக்கம்-பக்கமாக",
+            "அத்தியாயம் 9 — சரியான தேர்வை எப்படி செய்வது",
+            "அத்தியாயம் 10 — பொதுவான தவறான புரிதல்கள்",
+            "முக்கிய சொற்களஞ்சியம்"
           ],
-          sample: `AI PROMPT SPECIMEN: Reviewing Packing List Discrepancies
-Prompt Template:
-"Act as a Senior Indian Customs Documentation Expert. Compare this Commercial Invoice against this Packing List. Identify: 1. Net weight / Gross weight mismatches. 2. Any item described differently across both files. 3. Missing unit prices or currency codes. 4. Flag any wording that could trigger Customs red-flags under Turant RMS."`,
+          sample: `COMPARATIVE STRATEGIC MATRIX:
+- Section 58 Private Bonded Warehouse: Tariff deferral for goods intended for domestic consumption without manufacturing rights.
+- MOOWR (Section 65): Unlocks manufacturing within a bonded facility without mandatory export obligations.
+- FTWZ: Enables foreign entities to maintain inventory and transact in convertible foreign exchange without an Indian subsidiary.
+- SEZ & EOU: Complete export-focused operations with duty-free procurement and NFE monitoring.`,
           takeaways: [
-            "35 copy-paste prompts designed specifically for EXIM and customs workflows",
-            "Automating invoice audit routines to catch errors before CHA filings",
-            "How to structure clear technical explanation letters for Appraising Officers"
+            "Evaluate operational trade-offs between Section 58 warehousing, MOOWR, and FTWZ",
+            "Maximize working capital retention through lawful duty deferment on imported raw materials",
+            "Select optimal structuring between domestic clearance (ex-bond) and re-export without duty liability"
           ]
-        },
-        {
-          slug: "bill-of-entry-walkthrough",
-          title: "Bill of Entry Walkthrough",
-          desc: "A field-by-field practical walkthrough of one of the most important customs clearance forms.",
-          pages: "50 Pages",
-          tagline: "Step-by-Step Practical Walkthrough of Indian Customs Clearance Documentation",
-          chapters: [
-            "Chapter 1: Header Section: Port Code, BE Type, Job Number, Importer Details, AD Code",
-            "Chapter 2: Supplier & Invoice Details: Currency, Terms, Valuation Rules Applied",
-            "Chapter 3: Item-Level Breakdown: HSN, CTH, Notification Numbers, Exemption Claims",
-            "Chapter 4: Duty Calculation Table: BCD, SWS, AIDC, Anti-Dumping Duty (ADD), IGST",
-            "Chapter 5: Assessment Remarks & Customs Officers Examination Order",
-            "Chapter 6: Out-of-Charge (OOC) Stamp & Delivery Release Protocol"
-          ],
-          sample: `BILL OF ENTRY ANATOMY: Reading the Electronic ICEGATE BE
-- Section 1 (Header): Check Port Code (e.g., INMAA1 for Chennai Sea, INNSA1 for Nhava Sheva).
-- Section 4 (Invoices): Confirm exchange rate date matches the date of BE submission.
-- Section 8 (Item Table): Verify CTH (8-digit code), Country of Origin (COO), and Notification exemption serial numbers.
-- Section 12 (Appraising Remarks): The official notes from the Appraiser or Assistant Commissioner indicating clearance status or inspection instructions.`,
-          takeaways: [
-            "Understanding all 16 major sections of an ICEGATE Bill of Entry document",
-            "How to verify duty calculations before authorizing the customs broker payment",
-            "Checking GSTIN credit transmission on GSTR-2B using the Bill of Entry reference"
-          ]
-        },
-        {
-          slug: "import-business-starter-guide",
-          title: "Import Business Starter Guide",
-          desc: "A beginner-friendly roadmap for anyone planning to start a profitable import business in India.",
-          pages: "60 Pages",
-          tagline: "A Beginner-Friendly Roadmap for Anyone Planning to Start an Import Venture",
-          chapters: [
-            "Chapter 1: Entity Setup: Sole Proprietorship vs LLP vs Pvt Ltd for Importers",
-            "Chapter 2: Bank Current Account, Forex Authorisation & AD Code Registration",
-            "Chapter 3: Sourcing Verified Suppliers: Alibaba, Trade Fairs & Overseas Factory Audits",
-            "Chapter 4: Negotiating Payment Terms & Protecting Down Payments",
-            "Chapter 5: Selecting the Right Freight Forwarder & Customs Broker (CHA)",
-            "Chapter 6: Your First Test Shipment: Minimum Viable Import Strategy",
-            "Chapter 7: Domestic Distribution, Warehousing & GST Input Tax Credit (ITC)"
-          ],
-          sample: `SUPPLIER DUE DILIGENCE: 5 Questions Before Paying Any Advance
-1. Request Business License / Unified Social Credit Code (for Chinese suppliers).
-2. Verify factory bank account matches company name on the commercial invoice (never pay personal accounts).
-3. Require high-resolution photos of packaging, palletization, and labels prior to balance payment.
-4. Agree in writing that original documents will be courier-dispatched or surrendered immediately upon receipt of TT balance.
-5. Secure third-party pre-shipment inspection (PSI) for orders exceeding $10,000.`,
-          takeaways: [
-            "Comprehensive roadmap from company registration to first profitable shipment",
-            "Negotiating 30% advance / 70% against Bill of Lading copy payment terms",
-            "Protecting your working capital from supplier delays and customs impounds"
-          ]
-        },
-        {
-          slug: "freight-logistics-essentials",
-          title: "Freight & Logistics Essentials",
-          desc: "Learn key concepts in ocean freight, air cargo, warehousing, forwarders and last-mile delivery.",
-          pages: "54 Pages",
-          tagline: "Core Concepts in Ocean Freight, Air Cargo, Warehousing & Last-Mile Delivery",
-          chapters: [
-            "Chapter 1: Ocean Shipping: FCL vs LCL, 20ft vs 40ft vs 40HC Container Selection",
-            "Chapter 2: Air Cargo Logistics: Actual Weight vs Volumetric Weight (Dimensional Factor 6000)",
-            "Chapter 3: Bill of Lading Nuances: Negotiable vs Non-negotiable, Endorsements",
-            "Chapter 4: Selecting Freight Forwarders: Spot Rates vs Annual Contracts",
-            "Chapter 5: Marine Cargo Insurance: Institute Cargo Clauses (A, B, C) Explained",
-            "Chapter 6: Inland Container Depots (ICD) and Multi-modal Transport in India"
-          ],
-          sample: `CONTAINER SELECTION GUIDE:
-- 20ft Standard (20' GP): Capacity ~33 CBM | Max payload ~28,000 kg. Best for heavy, dense cargo (metals, stone, machinery).
-- 40ft Standard (40' GP): Capacity ~67 CBM | Max payload ~26,500 kg. Best for general volume cargo.
-- 40ft High Cube (40' HC): Capacity ~76 CBM (extra 1ft height). Optimal for voluminous, lightweight goods (garments, furniture, plastics).
-Rule of thumb: If cargo volume exceeds 15 CBM, FCL (Full Container) is almost always cheaper and safer than LCL!`,
-          takeaways: [
-            "FCL vs LCL decision metrics to save 30% on ocean transit costs",
-            "Calculating air freight chargeable weight and airline fuel/security surcharges",
-            "Securing Marine Cargo Insurance with appropriate Institute Cargo Clauses (A)"
-          ]
-        },
-      ],
+        }
+      ]
     },
     mentor: {
       eyebrow: "Unique positioning",
@@ -655,254 +619,209 @@ Rule of thumb: If cargo volume exceeds 15 CBM, FCL (Full Container) is almost al
       emailNote: "உடனடி பதிவிறக்க இணைப்பு + மின்னஞ்சல் உறுதிப்படுத்தல் கிடைக்கும்.",
       items: [
         {
-          slug: "import-documentation-handbook",
-          title: "Import Documentation Handbook",
-          desc: "கொள்முதல் முதல் தேர்வு வரை ஒவ்வொரு இறக்குமதியாளருக்கும் தேவையான ஆவணங்களுக்கான படிப்படியான வழிகாட்டி.",
-          pages: "52 பக்கங்கள்",
-          tagline: "துல்லியமான மற்றும் வேகமான இறக்குமதி ஆவண வழிகாட்டி",
+          slug: "aeo-programme-guide",
+          title: "அங்கீகரிக்கப்பட்ட பொருளாதார செயற்பாட்டாளர் (AEO)",
+          desc: "WCO SAFE Framework மற்றும் இந்திய சுங்கத்துறை (CBIC) விதிகளின் கீழ் AEO T1, T2, T3 மற்றும் LO அடுக்குகளுக்கான தகுதி, ஆவணங்கள் மற்றும் விரைவு சுங்க அனுமதி பலன்கள்.",
+          pages: "19 பக்கங்கள்",
+          tagline: "சர்வதேச பரிணாம வளர்ச்சி, அடுக்குகள், தகுதி அளவுருக்கள், ஆவணங்கள், விண்ணப்ப நடைமுறை — ஒரு முழுமையான வழிகாட்டி",
+          pdfUrl: "ebooks/aeo-programme-guide.pdf",
+          downloadName: "AEO_அங்கீகரிக்கப்பட்ட_பொருளாதார_செயற்பாட்டாளர்.pdf",
           chapters: [
-            "அத்தியாயம் 1: இறக்குமதி ஏற்றுமதியின் வாழ்க்கைச் சுழற்சி & ஆவண காலவரிசை",
-            "அத்தியாயம் 2: Purchase Order, Proforma Invoice & விற்பனை ஒப்பந்த சரத்துகள்",
-            "அத்தியாயம் 3: Commercial Invoice (Incoterms, HSN, நாணயம்)",
-            "அத்தியாயம் 4: Packing List vs Commercial Invoice முரண்பாடுகள்",
-            "அத்தியாயம் 5: Bill of Lading (B/L) & Air Waybill (AWB) வகைகள்",
-            "அத்தியாயம் 6: Country of Origin (COO) & FTA ஒப்பந்த சான்றிதழ்கள்",
-            "அத்தியாயம் 7: Bill of Entry (BE) & ICEGATE தாக்கல் அடிப்படைகள்",
-            "அத்தியாயம் 8: வங்கி தீர்வு மற்றும் IDPMS / EDPMS நடைமுறைகள்"
+            "1. AEO திட்டம் — அறிமுகம் மற்றும் அடிப்படைக் கருத்துகள்",
+            "2. AEO-வின் சர்வதேச பரிணாம வளர்ச்சி (WCO SAFE Framework வரலாறு)",
+            "3. இந்தியாவில் AEO திட்டம் — சட்டக் கட்டமைப்பு & நிர்வாகம்",
+            "4. AEO அடுக்குகள் — T1, T2, T3 மற்றும் LO விரிவான விளக்கம்",
+            "5. செல்லுபடியாகும் காலம் மற்றும் புதுப்பித்தல் (Renewal)",
+            "6. தகுதி அளவுகோல்கள் மற்றும் விரிவான அளவுருக்கள் (Parameters)",
+            "7. தேவையான ஆவணங்கள் & இணைப்புகள் (Annexures)",
+            "8. விண்ணப்பிக்கும் நடைமுறை — படிப்படியான வழிகாட்டி",
+            "9. அடுக்கு வாரியான பலன்கள் — இறக்குமதியாளர் / ஏற்றுமதியாளர் / CHA",
+            "10. பரஸ்பர அங்கீகார ஒப்பந்தங்கள் (Mutual Recognition Agreements)",
+            "11. AEO அந்தஸ்தை தொடர பராமரிக்க வேண்டிய முன்னெச்சரிக்கைகள்",
+            "12. அந்தஸ்து இடைநிறுத்தம் / ரத்து — காரணங்களும் தீர்வும்",
+            "13. முடிவுரை",
+            "14. பின்னிணைப்பு — சுருக்கக் குறிப்புகளின் விளக்கம் (Glossary)"
           ],
-          sample: `முக்கிய சரிபார்ப்புப் பட்டியல்: Commercial Invoice சரிபார்ப்பு
-1. சரியான Incoterm குறிப்பிடப்பட்டுள்ளதா (எ.கா. CIF Nhava Sheva, FOB Shanghai)?
-2. 8-இலக்க HSN குறியீடு ஒவ்வொரு பொருளுக்கும் குறிப்பிடப்பட்டுள்ளதா?
-3. சப்ளையரின் அங்கீகரிக்கப்பட்ட கையொப்பம் மற்றும் முத்திரை உள்ளதா?
-4. Packing List எடையும் Invoice எடையும் சரியாகப் பொருந்துகிறதா?`,
+          sample: `WCO SAFE FRAMEWORK & CBIC CIRCULAR 33/2016 வழிகாட்டி:
+AEO என்பது சர்வதேச சப்ளை செயினில் ஈடுபடும் வணிக நிறுவனத்தை குறைந்த அபாயமுள்ள வர்த்தக பங்காளராக (Trusted, Low-Risk Trade Partner) சுங்கத்துறை அங்கீகரிக்கும் தன்னார்வ சான்றிதழ் திட்டம். இதன் மூலம் குறைவான ஆய்வுகள், நேரடி துறைமுக விநியோகம் (DPD), மற்றும் வங்கி உத்தரவாதத் தள்ளுபடி சலுகைகள் கிடைக்கின்றன.`,
           takeaways: [
-            "அனைத்து 7 முக்கிய இறக்குமதி ஆவணங்களுக்கான படிப்படியான சரிபார்ப்புப் பட்டியல்",
-            "சுங்கத்துறை விசாரணைகளை முன்கூட்டியே தவிர்க்கும் முறைகள்",
-            "வங்கி IDPMS தீர்வு சிக்கல்களை எளிதாகத் தீர்க்கும் வழிகள்"
+            "WCO SAFE Framework மற்றும் CBIC Circular 33/2016 சட்டக் கட்டமைப்பு புரிதல்",
+            "T1, T2, T3 மற்றும் LO அடுக்குகளுக்கான துல்லியமான தகுதி அளவுகோல்கள் மற்றும் ஆவணங்கள்",
+            "துறைமுக விரைவு அனுமதி மற்றும் வங்கி உத்தரவாதத் தள்ளுபடி பெறும் நடைமுறை"
           ]
         },
         {
-          slug: "hsn-classification-made-simple",
-          title: "HSN Classification Made Simple",
-          desc: "தயாரிப்பு வகைப்பாடு, 8-இலக்க தீர்வைக் கட்டமைப்பு மற்றும் GRI விதிகளில் தேர்ச்சி பெறுங்கள்.",
-          pages: "44 பக்கங்கள்",
-          tagline: "8-இலக்க வரி குறியீட்டு முறையை எளிதாகக் கற்றுக் கொள்ளுங்கள்",
+          slug: "carotar-2020-tamil",
+          title: "CAROTAR 2020 — தோற்று விதிகள் நிர்வாகம்",
+          desc: "Customs Act Section 28DA, Form I மற்றும் Proof of Origin விதிகளின்படி FTA முன்னுரிமை வரிச் சலுகைகளுக்கான சட்டபூர்வ இணக்க வழிகாட்டி.",
+          pages: "7 பக்கங்கள்",
+          tagline: "இந்திய இறக்குமதியாளர்களுக்கான FTA இணக்க வழிகாட்டி (Section 28DA, Form I, Proof of Origin)",
+          pdfUrl: "ebooks/carotar-2020-tamil.pdf",
+          downloadName: "CAROTAR_2020_Tamil.pdf",
           chapters: [
-            "அத்தியாயம் 1: Harmonized System கட்டமைப்பு: அத்தியாயம், தலைப்பு, உட்பிரிவு",
-            "அத்தியாயம் 2: GRI விதிகள் 1 முதல் 6 வரை - நிஜ உதாரணங்களுடன் விளக்கம்",
-            "அத்தியாயம் 3: Essential Character Rule (விதி 3b) கூட்டுப் பொருட்களுக்கு",
-            "அத்தியாயம் 4: Section Notes மற்றும் Chapter Notes சட்டபூர்வ அதிகாரம்",
-            "அத்தியாயம் 5: இந்திய சுங்கத்துறையில் Advance Ruling (AAR) தாக்கல் செய்தல்",
-            "அத்தியாயம் 6: வகைப்பாடு மறுஆய்வு ஆட்சேபனைகளை சட்டப்பூர்வமாக தீர்த்தல்"
+            "அத்தியாயம் 1 — CAROTAR 2020 என்றால் என்ன, ஏன் அறிமுகப்படுத்தப்பட்டது",
+            "அத்தியாயம் 2 — சட்ட அடிப்படை: Section 28DA மற்றும் இறக்குமதியாளரின் கடமைகள்",
+            "அத்தியாயம் 3 — Origin Criteria: பொருட்கள் எவ்வாறு தகுதி பெறுகின்றன",
+            "அத்தியாயம் 4 — Bill of Entry-இல் தேவையான விவரங்கள்",
+            "அத்தியாயம் 5 — Certificate of Origin முதல் Proof of Origin வரை (2025 திருத்தம்)",
+            "அத்தியாயம் 6 — Form I மற்றும் சரிபார்ப்பு செயல்முறை",
+            "அத்தியாயம் 7 — முன்னுரிமை வரி மறுக்கப்படும் சூழ்நிலைகள்",
+            "அத்தியாயம் 8 — CAROTAR நடைமுறை சரிபார்ப்புப் பட்டியல்",
+            "முக்கிய சொற்களஞ்சியம்"
           ],
-          sample: `GRI விதி 3(b) பயன்பாடு:
-பல்வேறு பாகங்களைக் கொண்ட பொருட்களுக்கு, அந்த பொருளுக்கு "அடிப்படைத் தன்மை" (Essential Character) தரும் முக்கியப் பாகத்தின் அடிப்படையில் HSN வகைப்பாடு தீர்மானிக்கப்படுகிறது.`,
+          sample: `Section 28DA & Form I வழிகாட்டுதல்:
+ஒரு செல்லுபடியாகும் Proof of Origin இருப்பதோடு மட்டுமல்லாமல், Form I-இல் உள்ள தகவல்களை முன்கூட்டியே பெற்று 5 ஆண்டுகள் பாதுகாத்து வைக்க வேண்டியது இறக்குமதியாளரின் சட்டபூர்வ கடமையாகும். சுங்கத்துறை அதிகாரி கோரும்போது 10 வேலை நாட்களுக்குள் உரிய விளக்கங்களை சமர்ப்பிக்க வேண்டும்.`,
           takeaways: [
-            "Section Notes மற்றும் Chapter Notes விதிகளின்படி சரியான குறியீட்டைத் தேர்ந்தெடுப்பது எப்படி",
-            "திடீர் வரி திருத்தங்கள் மற்றும் அபராதங்களைத் தவிர்ப்பது எப்படி",
-            "முன்கூட்டியே Advance Ruling உத்தரவு பெறும் வழிமுறை"
+            "Section 28DA கீழ் இறக்குமதியாளரின் சட்டபூர்வ பொறுப்புகள் மற்றும் Form I தாக்கல் முறை",
+            "Wholly Obtained (WO), RVC மற்றும் Tariff Heading மாற்றங்களுக்கான விதிகள்",
+            "Notification No. 14/2025-Customs (N.T.) Proof of Origin திருத்தங்கள்"
           ]
         },
         {
-          slug: "customs-clearance-guide",
-          title: "Customs Clearance Guide",
-          desc: "துறைமுக வருகை முதல் கிடங்கு சேர்ப்பு வரையிலான நடைமுறை சுங்க அனுமதி வழிகாட்டி.",
-          pages: "58 பக்கங்கள்",
-          tagline: "துறைமுகத் தாமதங்களைத் தவிர்க்க நடைமுறை சுங்க அனுமதி வழிகாட்டி",
+          slug: "concessional-schemes-tamil",
+          title: "சலுகை இறக்குமதி & ஏற்றுமதி ஊக்குவிப்பு திட்டங்கள்",
+          desc: "FTP 2023 மற்றும் சுங்கத்துறை விதிகளின் கீழ் Advance Authorization, EPCG, RoDTEP, EOU மற்றும் MOOWR சலுகைத் திட்டங்களின் முழுமையான நடைமுறை வழிகாட்டி.",
+          pages: "11 பக்கங்கள்",
+          tagline: "Advance Authorization · EPCG · RoDTEP · EOU · MOOWR (FTP 2023, Section 65)",
+          pdfUrl: "ebooks/concessional-schemes-tamil.pdf",
+          downloadName: "Concessional_Schemes_Tamil.pdf",
           chapters: [
-            "அத்தியாயம் 1: கப்பல் வருகை & IGM பதிவு நடைமுறை",
-            "அத்தியாயம் 2: Prior Bill of Entry vs Advance vs வழக்கமான Bill of Entry",
-            "அத்தியாயம் 3: Faceless Assessment: Turant சுங்க அமைப்பு எவ்வாறு செயல்படுகிறது",
-            "அத்தியாயம் 4: RMS அமைப்பு: Green Channel vs ஆய்வு vs சோதனை",
-            "அத்தியாயம் 5: சுங்க ஆய்வு உத்தரவுகள்: First Check vs Second Check",
-            "அத்தியாயம் 6: சுங்க வினாக்களுக்கு முறையான எழுத்துப்பூர்வ பதில் தயாரித்தல்",
-            "அத்தியாயம் 7: வரி செலுத்துதல், Out-of-Charge (OOC) & Delivery Order (DO)",
-            "அத்தியாயம் 8: துறைமுக Demurrage & Container Detention கட்டணங்களைத் தவிர்த்தல்"
+            "அத்தியாயம் 1 — இந்த திட்டங்கள் ஏன் உள்ளன",
+            "அத்தியாயம் 2 — Advance Authorization Scheme",
+            "அத்தியாயம் 3 — EPCG (Export Promotion Capital Goods) Scheme",
+            "அத்தியாயம் 4 — RoDTEP",
+            "அத்தியாயம் 5 — EOU (Export Oriented Unit)",
+            "அத்தியாயம் 6 — MOOWR (Section 65 Bonded Manufacturing)",
+            "அத்தியாயம் 7 — திட்டங்களை தேர்வு செய்தல் மற்றும் இணைத்தல்",
+            "அத்தியாயம் 8 — பொதுவான இணக்க தவறுகள்",
+            "அத்தியாயம் 9 — நடைமுறை Checklist",
+            "முக்கிய சொற்களஞ்சியம்"
           ],
-          sample: `24 மணி நேரத்தில் ICEGATE சுங்க வினாக்களுக்கு பதிலளிக்கும் முறை:
-1. வினாவின் வகையைக் கண்டறியவும்: மதிப்பு, விவரக்குறிப்பு அல்லது விலக்கு அறிவிப்பு.
-2. நிறுவன கடிதத் தலைப்பில் தொழில்முறை விளக்கக் கடிதத்தைத் தயாரிக்கவும்.
-3. e-Sanchit மூலம் தொழில்நுட்ப விவரக்குறிப்புகள் மற்றும் சான்றிதழ்களைப் பதிவேற்றவும்.`,
+          sample: `FTP 2023 சலுகைத் திட்டங்களின் ஒப்பீடு:
+Advance Authorization மூலம் ஏற்றுமதி உற்பத்திக்கான மூலப்பொருட்களை வரி இன்றி இறக்குமதி செய்யலாம். EPCG மூலம் மூலதன இயந்திரங்களை 0% அடிப்படை சுங்க வரியில் இறக்குமதி செய்து 6 ஆண்டுகளுக்குள் ஏற்றுமதிக் கடமையை (Export Obligation) நிறைவேற்றலாம். EOU மற்றும் MOOWR திட்டங்கள் உற்பத்தி தளத்தையே வரி ஒத்திவைப்பு முறையில் இயக்க உதவுகின்றன.`,
           takeaways: [
-            "கப்பல் வந்து சேர்ந்த 24 மணி நேரத்திற்குள் பொருட்களை விடுவிக்கும் முறை",
-            "Faceless Assessment பரிசீலனைகளைச் சுமுகமாகக் கடக்கும் வழிகள்",
-            "கப்பல் நிறுவனங்களுடன் கூடுதல் இலவச நாட்களைப் பெற்று Detention கட்டணத்தை தவிர்த்தல்"
+            "Advance Authorization SION நெறிமுறைகள் & EODC சான்றிதழ் பெறும் முறை",
+            "EPCG 6 மடங்கு ஏற்றுமதிக் கடமை கணக்கீடு & உள்நாட்டு sourcing சலுகைகள்",
+            "MOOWR மற்றும் EOU இடையேயான வேறுபாடுகள் மற்றும் சரியான திட்டத்தைத் தேர்வு செய்யும் உத்திகள்"
           ]
         },
         {
-          slug: "dgft-compliance-basics",
-          title: "DGFT & Compliance Basics",
-          desc: "இந்திய இறக்குமதியாளர்களுக்கான அடிப்படைக் கொள்கைகள், அறிவிப்புகள், BIS மற்றும் EPR இணக்கப் படிகள்.",
-          pages: "46 பக்கங்கள்",
-          tagline: "இந்திய இறக்குமதிக்கான முக்கிய ஒழுங்குமுறை வழிகாட்டி",
+          slug: "customs-valuation-tamil",
+          title: "இந்திய கஸ்டம்ஸ் மதிப்பீட்டு வழிகாட்டி",
+          desc: "Customs Act Section 14 மற்றும் CVR 2007 விதிகளின்படி Assessable Value கணக்கீடு, Rule 10 சேர்த்தல்கள், 6 மதிப்பீட்டு முறைகள் மற்றும் SVB நடைமுறைகள்.",
+          pages: "7 பக்கங்கள்",
+          tagline: "Assessable Value முதல் 6 மதிப்பீட்டு முறைகள் வரை (Section 14 · CVR 2007 · SVB)",
+          pdfUrl: "ebooks/customs-valuation-tamil.pdf",
+          downloadName: "Customs_Valuation_Tamil.pdf",
           chapters: [
-            "அத்தியாயம் 1: Importer-Exporter Code (IEC) மற்றும் DGFT போர்ட்டல் இணைப்பு",
-            "அத்தியாயம் 2: வெளிநாட்டு வர்த்தகக் கொள்கை (FTP) அடிப்படைகள்",
-            "அத்தியாயம் 3: BIS தரநிலைகள் மற்றும் சோதனைத் தேவைகள்",
-            "அத்தியாயம் 4: E-Waste, பிளாஸ்டிக் மற்றும் பேட்டரி இறக்குமதிக்கான EPR பதிவு",
-            "அத்தியாயம் 5: பொட்டலப் பொருட்களுக்கான Legal Metrology (LMPC) விதிகளின் தேவைகள்",
-            "அத்தியாயம் 6: ஏற்றுமதி ஊக்குவிப்பு திட்டங்கள்: Advance Authorisation & EPCG"
+            "அத்தியாயம் 1 — Assessable Value: அடிப்படைக் கட்டமைப்பு",
+            "அத்தியாயம் 2 — Transaction Value-உடன் சேர்க்கப்பட வேண்டியவை (Rule 10)",
+            "அத்தியாயம் 3 — Transaction Value ஏற்றுக்கொள்ளப்படாதபோது: 6 மதிப்பீட்டு முறைகள்",
+            "அத்தியாயம் 4 — தொடர்புடைய தரப்பு இறக்குமதி மற்றும் Special Valuation Branch (SVB)",
+            "அத்தியாயம் 5 — Declared Value நிராகரிக்கப்படும் சூழ்நிலைகள் (Rule 12)",
+            "அத்தியாயம் 6 — மதிப்பீட்டு நடைமுறை சரிபார்ப்புப் பட்டியல்",
+            "முக்கிய சொற்களஞ்சியம்"
           ],
-          sample: `முக்கிய சட்டப்பூர்வ தேவைகள்:
-- BIS பதிவு: எலக்ட்ரானிக்ஸ் மற்றும் எஃகு பொருட்களுக்கு கட்டாயம்.
-- EPR பதிவு: பேக்கேஜிங் மற்றும் மின் கழிவுகளுக்கு CPCB போர்ட்டலில் கட்டாயம்.
-- LMPC லேபிளிங்: இந்திய சந்தையில் விற்கப்படும் பொட்டலப் பொருட்களில் MRP, இறக்குமதியாளர் முகவரி லேபிள் இருக்க வேண்டும்.`,
+          sample: `Assessable Value & CVR 2007 விதிகள்:
+இந்திய சுங்கத்துறையில் வரி கணக்கீடு இன்வாய்ஸ் விலையில் மட்டும் செய்யப்படுவதில்லை; Rule 10-இன் கீழ் சரக்குக் கட்டணம், காப்பீடு, ராயல்டி மற்றும் இலவச/தள்ளுபடி பாகங்கள் (Assists) சேர்க்கப்பட்டு Assessable Value தீர்மானிக்கப்படுகிறது. Transaction Value நிராகரிக்கப்பட்டால் 6 முறைகள் வரிசைப்படி மட்டுமே பயன்படுத்தப்பட வேண்டும்.`,
           takeaways: [
-            "DGFT கட்டுப்பாட்டுப் பட்டியல்களைப் புரிந்துகொள்வது",
-            "துறைமுகத்தில் சரக்குகள் பறிமுதல் செய்யப்படுவதைத் தடுக்கும் லேபிளிங் விதிகள்",
-            "வரி விலக்கு திட்டங்களைச் சரியாகப் பயன்படுத்தும் வழிகள்"
+            "Assessable Value கணக்கீட்டு சூத்திரம் மற்றும் 1% லேண்டிங் கட்டண நடைமுறை",
+            "Rule 10-இன் கீழ் Tooling, Dies, Royalty தொகைகளை துல்லியமாக சேர்த்தல்",
+            "SVB விசாரணை மற்றும் தொடர்புடைய நிறுவனங்களுக்கிடையேயான பரிவர்த்தனை விதிகள்"
           ]
         },
         {
-          slug: "import-costing-landed-cost",
-          title: "Import Costing & Landed Cost",
-          desc: "உங்கள் landed இறக்குமதி செலவை உருவாக்கும் உண்மையான வரிகள், சரக்குக் கட்டணங்கள் மற்றும் CFS செலவுகள்.",
-          pages: "48 பக்கங்கள்",
-          tagline: "உண்மையான இறக்குமதி செலவைக் கணக்கிடும் முழுமையான வழிகாட்டி",
+          slug: "import-clearance-procedures",
+          title: "இறக்குமதி பயணம் — இந்திய சுங்கத்துறை வழிகாட்டி",
+          desc: "ஆசான் – மாணவி உரையாடல் வழியே ஆர்டர் முதல் factory gate வருகை வரை Incoterms, IGM, Bill of Entry, DPD/CFS, வரி செலுத்துதல் மற்றும் Demurrage தவிர்ப்பு நடைமுறைகள்.",
+          pages: "34 பக்கங்கள்",
+          tagline: "இந்திய சுங்கத்துறையில் இறக்குமதி சரக்கு தீர்வு — முழுமையான வழிகாட்டி (34 பக்கங்கள்)",
+          pdfUrl: "ebooks/import-clearance-procedures.pdf",
+          downloadName: "Import_clearance_procedures.pdf",
           chapters: [
-            "அத்தியாயம் 1: CIF மதிப்பு: சுங்க மாற்று விகிதங்கள் (CBIC Exchange Rates)",
-            "அத்தியாயம் 2: Basic Customs Duty (BCD) கணக்கீட்டு முறைகள்",
-            "அத்தியாயம் 3: Social Welfare Surcharge (SWS) & AIDC செஸ் வரிகள்",
-            "அத்தியாயம் 4: IGST மதிப்பீடு: வரிக்குரிய தொகையைக் கணக்கிடுதல்",
-            "அத்தியாயம் 5: துறைமுக உள்ளூர் கட்டணங்கள்: THC, D/O மற்றும் CFS செலவுகள்",
-            "அத்தியாயம் 6: உள்நாட்டுப் போக்குவரத்து மற்றும் மறைமுக செலவுகள்",
-            "அத்தியாயம் 7: லாப வரம்புகளுக்கான மறுபயன்பாட்டு Landed Cost Excel சூத்திரம்"
+            "முன்னுரை — இரண்டு பேர், ஒரு பயணம்",
+            "பாடம் 1 — ஆர்டர் முதல் ஆவணம் வரை: Incoterms புரிதல்",
+            "பாடம் 2 — தோற்றுவாயில் சரக்கு கையகப்படுத்துதல்: Freight Forwarder & Liner",
+            "பாடம் 3 — கடல் பயணம்: FCL, LCL, Transshipment",
+            "பாடம் 4 — இந்திய துறைமுகத்தில் வருகை: IGM தாக்கல்",
+            "பாடம் 5 — Bill of Entry தாக்கல்: இதயப் பகுதி",
+            "பாடம் 6 — DPD vs CFS: கொள்கலன் எப்படி நகர்கிறது?",
+            "பாடம் 7 — LCL சரக்குகள்: Deconsolidation & Devanning",
+            "பாடம் 8 — வான் வழி இறக்குமதி: Courier Mode vs Cargo Mode",
+            "பாடம் 9 — பரிசோதனை, மதிப்பீடு, வரி செலுத்துதல், Out of Charge",
+            "பாடம் 10 — Demurrage, Detention & தாமதம் தவிர்க்கும் வழிகள்",
+            "பாடம் 11 — சிறப்புத் தலைப்புகள்: AEO, PGA, Duty Schemes",
+            "பாடம் 12 — பொதுவான தவறுகள் & இணக்கம் (Compliance)",
+            "பாடம் 13 — முழு பயண Storyboard: ஒரு பார்வையில்",
+            "சொற்களஞ்சியம் (Glossary)",
+            "இணைப்பு — ஆவணங்கள் சரிபார்ப்பு பட்டியல்",
+            "முடிவுரை"
           ],
-          sample: `கணக்கீட்டு சூத்திரம்:
-1. Assessable Value (AV) = CIF INR.
-2. BCD = AV × BCD %.
-3. SWS = BCD தொகையில் 10%.
-4. IGST = (AV + BCD + SWS) × IGST %.
-5. மொத்த சுங்க வரி = BCD + SWS + IGST.
-6. Landed Cost = AV + வரிகள் + CFS கட்டணம் + உள்ளூர் போக்குவரத்து.`,
+          sample: `ஆசான் பாஸ்கர் – மாணவி தீனா உரையாடல்:
+"இறக்குமதி ஷிப்மென்ட் கப்பல் ஏறும் போது தொடங்கவில்லை; Purchase Order அனுப்பி Proforma Invoice வரும்போதே தொடங்குகிறது. Incoterm எதுவாக இருந்தாலும், இந்திய சுங்கத்துறையில் சட்டப்பூர்வமாக Bill of Entry உங்கள் IEC-யில் தான் தாக்கல் ஆகும். கப்பல் துறைமுகம் வருவதற்கு முன்னரே Prior Bill of Entry தாக்கல் செய்வதன் மூலம் Demurrage மற்றும் Detention கட்டணங்களைத் தவிர்க்கலாம்."`,
           takeaways: [
-            "துல்லியமாக ஒவ்வொரு பைசாவையும் கணக்கிடும் கணித முறை",
-            "வங்கி மாற்று விகிதத்திற்கும் சுங்க மாற்று விகிதத்திற்கும் உள்ள வேறுபாடு",
-            "Bill of Entry மூலம் 100% GST உள்ளீட்டு வரி வரவு (ITC) பெறுவது எப்படி"
+            "Incoterms 2020 ஆபத்து பரிமாற்ற எல்லைகள் மற்றும் பொறுப்புகள்",
+            "Prior Bill of Entry தாக்கல் செய்து RMS Green Channel அனுமதி பெறும் வழிகள்",
+            "DPD (Direct Port Delivery) மூலம் துறைமுக சேமிப்புக் கட்டணங்களை மிச்சப்படுத்தும் யுக்திகள்"
           ]
         },
         {
-          slug: "exim-terminology-guide",
-          title: "EXIM Terminology Guide",
-          desc: "சர்வதேச வர்த்தகம், கப்பல் போக்குவரத்து மற்றும் சுங்கத்தில் பயன்படும் 150+ முக்கிய கலைச்சொற்கள்.",
-          pages: "38 பக்கங்கள்",
-          tagline: "சர்வதேச வர்த்தக கலைச்சொற்களுக்கான விரிவான கையேடு",
+          slug: "second-hand-capital-goods-tamil",
+          title: "பழைய Capital Goods இறக்குமதி & மதிப்பீடு",
+          desc: "FTP 2023 Para 2.31 கீழ் பழைய இயந்திரங்கள் இறக்குமதிக்கான கொள்கை வரம்புகள், Chartered Engineer சான்றிதழ் மற்றும் தேய்மான மதிப்பீட்டு வழிகாட்டி.",
+          pages: "10 பக்கங்கள்",
+          tagline: "வரையறை · இறக்குமதிக் கட்டுப்பாடுகள் · depreciation மதிப்பீடு (FTP 2023)",
+          pdfUrl: "ebooks/second-hand-capital-goods-tamil.pdf",
+          downloadName: "Second_Hand_Capital_Goods_Tamil.pdf",
           chapters: [
-            "அத்தியாயம் 1: Incoterms 2020: FOB, CIF, CFR, EXW, DAP, DDP விளக்கம்",
-            "அத்தியாயம் 2: சரக்கு & கப்பல் கலைச்சொற்கள்: FCL, LCL, TEU, CFS, ICD",
-            "அத்தியாயம் 3: துறைமுக & சுங்க சொற்கள்: IGM, EGM, OOC, RMS, ICEGATE",
-            "அத்தியாயம் 4: நிதி & பணம் செலுத்தும் முறைகள்: L/C, TT, DA, DP",
-            "அத்தியாயம் 5: Demurrage vs Detention vs Port Storage சட்டப்பூர்வ வேறுபாடுகள்"
+            "அத்தியாயம் 1 — Capital Goods என்றால் என்ன (கொள்கை வரையறை)",
+            "அத்தியாயம் 2 — Second-Hand Goods கொள்கை கட்டமைப்பு (Para 2.31)",
+            "அத்தியாயம் 3 — இறக்குமதி கட்டுப்பாடுகள் & கட்டுப்படுத்தப்பட்ட/தடைசெய்யப்பட்ட பட்டியல்",
+            "அத்தியாயம் 4 — Chartered Engineer Certificate தேவை",
+            "அத்தியாயம் 5 — பழைய இயந்திரங்களின் கஸ்டம்ஸ் மதிப்பீடு",
+            "அத்தியாயம் 6 — Depreciation கணக்கீடு — Worked Example",
+            "அத்தியாயம் 7 — EPCG-இன் கீழ் Second-Hand Capital Goods",
+            "அத்தியாயம் 8 — நடைமுறை Checklist",
+            "முக்கிய சொற்களஞ்சியம்"
           ],
-          sample: `முக்கிய சொற்கள்:
-- Demurrage: கொள்கலன் துறைமுக நிலத்தில் அனுமதிக்கப்பட்ட நாட்களைத் தாண்டி இருக்கும்போது துறைமுகம் விதிக்கும் கட்டணம்.
-- Detention: கொள்கலன் துறைமுகத்திற்கு வெளியே தாமதமாகும் போது கப்பல் நிறுவனம் விதிக்கும் கட்டணம்.
-- OOC (Out of Charge): சுங்கத்துறை சரக்குகளை முழுமையாக விடுவிக்கும் இறுதி ஆணை.`,
+          sample: `FTP Para 2.31 & Chartered Engineer சான்றிதழ்:
+பழைய இயந்திரங்கள் இறக்குமதிக்கு ஏற்றுமதி செய்யும் நாட்டில் உள்ள தன்னாட்சி பெற்ற Chartered Engineer சான்றிதழ் கட்டாயமாகும். இயந்திரத்தின் தயாரிப்பு ஆண்டு, தற்போதைய நிலை, மீதமுள்ள பயன்பாட்டு ஆயுள் (குறைந்தபட்சம் 5 ஆண்டுகள்) மற்றும் நியாயமான சந்தை மதிப்பு அதில் சான்றளிக்கப்பட வேண்டும். BIS பதிவு இல்லாத பழைய எலக்ட்ரானிக்ஸ் பொருட்கள் தடை செய்யப்பட்டுள்ளன.`,
           takeaways: [
-            "11 Incoterms 2020 பொறுப்பு மற்றும் இடர் எல்லைகள்",
-            "150+ சுங்க மற்றும் கப்பல் சுருக்கக் குறியீடுகள்",
-            "சரக்கு முகவர்கள் மற்றும் சுங்க அதிகாரிகளுடன் சரியான முறையில் உரையாடும் கலை"
+            "FTP Para 2.31 பிரிவுகளின் கீழ் இயந்திரங்களுக்கான இலவச vs கட்டுப்படுத்தப்பட்ட வகைப்பாடு",
+            "சுங்கத்துறை சுற்றறிக்கை 493/124/86 மற்றும் 25/2015-Customs தேய்மான அட்டவணை கணக்கீடு",
+            "Chartered Engineer சான்றிதழில் இடம்பெற வேண்டிய முக்கிய விவரங்கள்"
           ]
         },
         {
-          slug: "ai-for-importers",
-          title: "AI for Importers",
-          desc: "ஆவணங்கள், ஆராய்ச்சி மற்றும் பணிப்பாய்வுப் பணிகளில் AI ஆதரவளிக்கும் நடைமுறை வழிகள் மற்றும் அறிவுறுத்தல்கள்.",
-          pages: "42 பக்கங்கள்",
-          tagline: "இறக்குமதியாளர்களுக்கான நவீன AI பணிப்பாய்வுகள்",
+          slug: "warehousing-schemes-comparison-tamil",
+          title: "Bonded Warehouse · FTWZ · SEZ · MOOWR · EOU",
+          desc: "Customs Act 1962, SEZ Act 2005 மற்றும் FTP 2023 கீழ் Private Bonded Warehouse, FTWZ, SEZ, MOOWR மற்றும் EOU இடையேயான ஆழமான நடைமுறை ஒப்பீடு.",
+          pages: "12 பக்கங்கள்",
+          tagline: "In-Bond உற்பத்தி & வணிக நன்மைகள் — ஒப்பீட்டு குறிப்புகள் (Customs Act 1962, FTP 2023)",
+          pdfUrl: "ebooks/warehousing-schemes-comparison-tamil.pdf",
+          downloadName: "Warehousing_Schemes_Comparison_Tamil.pdf",
           chapters: [
-            "அத்தியாயம் 1: சுங்க ஆராய்ச்சி உதவியாளராக AI-ஐப் பயன்படுத்துதல்",
-            "அத்தியாயம் 2: Invoice vs Packing List முரண்பாடுகளை தானாகக் கண்டறிதல்",
-            "அத்தியாயம் 3: HSN ஆராய்ச்சியில் AI வழிகாட்டுதல்கள்",
-            "அத்தியாயம் 4: சுங்க வினாக்களுக்கான தொழில்முறை தொழில்நுட்பக் கடிதங்கள் எழுதுதல்",
-            "அத்தியாயம் 5: வெளிநாட்டு சப்ளையர் ஒப்பந்தங்களை ஆய்வு செய்தல்",
-            "அத்தியாயம் 6: பாதுகாப்பு & ரகசியத்தன்மை விதிகள்"
+            "அத்தியாயம் 1 — ஐந்து கட்டமைப்புகளும் என்ன பிரச்சினையைத் தீர்க்கின்றன",
+            "அத்தியாயம் 2 — Customs Bonded Warehouse (Section 58)",
+            "அத்தியாயம் 3 — FTWZ (Free Trade Warehousing Zone)",
+            "அத்தியாயம் 4 — SEZ (Special Economic Zone)",
+            "அத்தியாயம் 5 — MOOWR (Section 65 Bonded Manufacturing)",
+            "அத்தியாயம் 6 — EOU (Export Oriented Unit)",
+            "அத்தியாயம் 7 — In-Bond உற்பத்தி: பக்கம்-பக்கமாக",
+            "அத்தியாயம் 8 — வணிக நன்மைகள்: பக்கம்-பக்கமாக",
+            "அத்தியாயம் 9 — சரியான தேர்வை எப்படி செய்வது",
+            "அத்தியாயம் 10 — பொதுவான தவறான புரிதல்கள்",
+            "முக்கிய சொற்களஞ்சியம்"
           ],
-          sample: `AI Prompt மாதிரி:
-"நீங்கள் ஒரு அனுபவமிக்க இந்திய சுங்க ஆவண நிபுணர். இந்த Commercial Invoice மற்றும் Packing List-ஐ ஒப்பிட்டு எடைக் குறைபாடுகள், வரி குறியீட்டு பிழைகள் மற்றும் சுங்கத்துறை கேள்விகளை ஏற்படுத்தக்கூடிய வார்த்தைகளைக் கண்டறியவும்."`,
+          sample: `5 கிடங்கு திட்டங்களின் முக்கிய வேறுபாடுகள்:
+தனியார் Bonded Warehouse (Sec 58) உள்நாட்டு சந்தைக்கான வர்த்தகத்தில் சுங்க வரியை ஒத்திவைக்க மட்டுமே பயன்படும். MOOWR (Sec 65) திட்டத்தில் எந்தவொரு ஏற்றுமதிக் கடமையும் இல்லாமல் கிடங்கிலேயே உற்பத்தி செய்யலாம். FTWZ திட்டம் வெளிநாட்டு நிறுவனங்கள் இந்தியாவில் துணை நிறுவனம் இல்லாமலேயே சரக்குகளை சேமித்து விற்க உதவுகிறது.`,
           takeaways: [
-            "இறக்குமதிக்காக வடிவமைக்கப்பட்ட 35 உடனடி AI Prompts",
-            "ஆவணப் பிழைகளை மனிதத் தவறுகளின்றி நொடிகளில் கண்டறிவது",
-            "சுங்க அதிகாரிகளுக்கு விரைவான விளக்கக் கடிதங்களைத் தயாரிப்பது"
+            "Section 58, Section 65 (MOOWR) மற்றும் FTWZ செயல்பாட்டு வேறுபாடுகள்",
+            "சுங்க வரி ஒத்திவைப்பு (Duty Deferment) மூலம் பணப்புழக்கத்தை (Working Capital) பாதுகாத்தல்",
+            "ஏற்றுமதி கடமை இல்லாத உற்பத்திக்கான MOOWR உரிமம் பெறும் முறை"
           ]
-        },
-        {
-          slug: "bill-of-entry-walkthrough",
-          title: "Bill of Entry Walkthrough",
-          desc: "மிக முக்கியமான சுங்க அனுமதி ஆவணமான Bill of Entry-இன் ஒவ்வொரு பகுதியையும் எளிதாகப் புரிந்து கொள்ளுங்கள்.",
-          pages: "50 பக்கங்கள்",
-          tagline: "இந்திய சுங்க அனுமதி ஆவணத்தின் முழுமையான நடைமுறை விளக்கம்",
-          chapters: [
-            "அத்தியாயம் 1: தலைப்பு பகுதி: துறைமுக குறியீடு, வேலை எண், AD Code",
-            "அத்தியாயம் 2: சப்ளையர் & விலைப்பட்டியல் விவரங்கள், நாணயம் மற்றும் மதிப்பீட்டு விதிகள்",
-            "அத்தியாயம் 3: பொருட்கள் அட்டவணை: HSN, CTH மற்றும் வரி விலக்கு அறிவிப்புகள்",
-            "அத்தியாயம் 4: வரி கணக்கீட்டு அட்டவணை: BCD, SWS, AIDC மற்றும் IGST",
-            "அத்தியாயம் 5: சுங்க அதிகாரியின் மதிப்பீட்டுக் குறிப்புகள் & ஆய்வு உத்தரவு",
-            "அத்தியாயம் 6: Out-of-Charge (OOC) முத்திரை & சரக்கு விடுவிப்பு நெறிமுறை"
-          ],
-          sample: `Bill of Entry முக்கிய பகுதிகள்:
-- பகுதி 1: Port Code (சென்னை: INMAA1, நவஷேவா: INNSA1).
-- பகுதி 4: விலைப்பட்டியல் மாற்று விகிதத் தேதி.
-- பகுதி 8: 8-இலக்க CTH குறியீடு மற்றும் வரி விலக்கு அறிவிப்பு வரிசை எண்.
-- பகுதி 12: சுங்கத்துறை ஆய்வாளரின் குறிப்புகள்.`,
-          takeaways: [
-            "Bill of Entry-இன் அனைத்து 16 முக்கியப் பிரிவுகளையும் வாசிக்கும் திறன்",
-            "வரி செலுத்தும் முன் CHA கணக்கீடுகளைச் சரிபார்க்கும் முறை",
-            "GSTR-2B-ல் வரி வரவு சரியாக பதிவாவதை உறுதி செய்யும் வழிகள்"
-          ]
-        },
-        {
-          slug: "import-business-starter-guide",
-          title: "Import Business Starter Guide",
-          desc: "இறக்குமதி வணிகம் தொடங்கத் திட்டமிடும் எவருக்கும் ஏற்ற தொடக்கநிலை முதல் வெற்றி வரையிலான வரைபடம்.",
-          pages: "60 பக்கங்கள்",
-          tagline: "இறக்குமதி வணிகத்தைத் தொடங்குவதற்கான முழுமையான வழிகாட்டி",
-          chapters: [
-            "அத்தியாயம் 1: நிறுவன அமைப்பு: Proprietorship vs LLP vs Pvt Ltd",
-            "அத்தியாயம் 2: வங்கி கணக்கு, அந்நிய செலாவணி மற்றும் AD Code பதிவு",
-            "அத்தியாயம் 3: நம்பகமான வெளிநாட்டு சப்ளையர்களைத் தேர்ந்தெடுப்பது எப்படி",
-            "அத்தியாயம் 4: பாதுகாப்பான கட்டண விதிமுறைகளை ஒப்பந்தம் செய்தல்",
-            "அத்தியாயம் 5: சரியான Freight Forwarder மற்றும் சுங்க முகவரை (CHA) தேர்ந்தெடுப்பது",
-            "அத்தியாயம் 6: உங்கள் முதல் சோதனை ஏற்றுமதி உத்தி",
-            "அத்தியாயம் 7: உள்நாட்டு விநியோகம், கிடங்கு மற்றும் GST உள்ளீட்டு வரி வரவு"
-          ],
-          sample: `முன்பணம் செலுத்தும் முன் சப்ளையரிடம் கேட்க வேண்டிய 5 முக்கிய கேள்விகள்:
-1. நிறுவன வணிக உரிமம் நகல்.
-2. தொழிற்சாலை வங்கி கணக்கு மட்டுமே (தனிநபர் கணக்கிற்கு பணம் அனுப்பக் கூடாது).
-3. ஏற்றுமதிக்கு முன் பேக்கிங் மற்றும் லேபிள் புகைப்படங்கள்.
-4. B/L நகல் கிடைத்த பின்னரே மீதிப் பணத்தை அனுப்புவதற்கான எழுத்துப்பூர்வ ஒப்பந்தம்.`,
-          takeaways: [
-            "நிறுவனப் பதிவு முதல் முதல் லாபகரமான ஏற்றுமதி வரையிலான வரைபடம்",
-            "30% முன்பணம் / 70% B/L நகலுக்கு எதிராக ஒப்பந்தம் செய்யும் நுணுக்கங்கள்",
-            "சுங்கத் தடைகளில் மூலதனம் முடங்குவதைத் தடுக்கும் உத்திகள்"
-          ]
-        },
-        {
-          slug: "freight-logistics-essentials",
-          title: "Freight & Logistics Essentials",
-          desc: "கடல் சரக்கு, வான் சரக்கு, கொள்கலன் தேர்வுகள் மற்றும் உள்நாட்டு விநியோகத்தின் முக்கியக் கருத்துகள்.",
-          pages: "54 பக்கங்கள்",
-          tagline: "சர்வதேச சரக்கு மற்றும் லாஜிஸ்டிக்ஸ் செயல்பாடுகள்",
-          chapters: [
-            "அத்தியாயம் 1: கடல் கப்பல்: FCL vs LCL, 20ft vs 40ft vs 40HC கொள்கலன்கள்",
-            "அத்தியாயம் 2: வான் சரக்கு: உண்மையான எடை vs பருமன் எடை (Volumetric Weight)",
-            "அத்தியாயம் 3: Bill of Lading நுணுக்கங்கள்: அசல் மற்றும் சரண்டர் B/L",
-            "அத்தியாயம் 4: சரக்கு முகவர்களைத் தேர்ந்தெடுப்பது: ஸ்பாட் விகிதங்கள் vs ஆண்டு ஒப்பந்தங்கள்",
-            "அத்தியாயம் 5: கடல் சரக்கு காப்பீடு: Institute Cargo Clauses (A, B, C) விளக்கம்",
-            "அத்தியாயம் 6: உள்நாட்டு உலர் துறைமுகங்கள் (ICD) மற்றும் பல்முனையப் போக்குவரத்து"
-          ],
-          sample: `கொள்கலன் தேர்வு வழிகாட்டி:
-- 20ft Standard: கொள்ளளவு ~33 CBM | அதிகபட்ச சுமை ~28,000 kg (கனமான பொருட்களுக்கு சிறந்தது).
-- 40ft Standard: கொள்ளளவு ~67 CBM | அதிகபட்ச சுமை ~26,500 kg (பொதுவான பொருட்களுக்கு).
-- 40ft High Cube: கொள்ளளவு ~76 CBM (குறைந்த எடை, அதிக பருமன் கொண்ட பொருட்களுக்கு சிறந்தது).
-15 CBM-க்கு அதிகமானால் எப்போதும் முழு கொள்கலன் (FCL) தேர்வு செய்வதே சிக்கனமானது!`,
-          takeaways: [
-            "கடல் சரக்கு செலவில் 30% சேமிக்கும் FCL vs LCL உத்திகள்",
-            "விமான சரக்கு கட்டணங்களை முன்கூட்டியே சரியாகக் கணக்கிடுவது",
-            "Institute Cargo Clauses (A) மூலம் 100% சரக்கு இழப்பீட்டுப் பாதுகாப்பைப் பெறுவது"
-          ]
-        },
-      ],
+        }
+      ]
     },
     mentor: {
       eyebrow: "தனித்துவமான நிலை",

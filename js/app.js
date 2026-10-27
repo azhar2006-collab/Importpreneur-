@@ -10,29 +10,23 @@ const BOOK_DISCOUNT_LABEL = "80% OFF";
 
 // Payment links placeholder (can be edited here or in a separate config)
 const EBOOK_PAYMENT_LINKS = {
-  "import-documentation-handbook": "#",
-  "hsn-classification-made-simple": "#",
-  "customs-clearance-guide": "#",
-  "dgft-compliance-basics": "#",
-  "import-costing-landed-cost": "#",
-  "exim-terminology-guide": "#",
-  "ai-for-importers": "#",
-  "bill-of-entry-walkthrough": "#",
-  "import-business-starter-guide": "#",
-  "freight-logistics-essentials": "#",
+  "aeo-programme-guide": "#",
+  "carotar-2020-tamil": "#",
+  "concessional-schemes-tamil": "#",
+  "customs-valuation-tamil": "#",
+  "import-clearance-procedures": "#",
+  "second-hand-capital-goods-tamil": "#",
+  "warehousing-schemes-comparison-tamil": "#",
 };
 
 const BOOK_CATEGORIES = {
-  "import-documentation-handbook": "docs",
-  "hsn-classification-made-simple": "customs",
-  "customs-clearance-guide": "customs",
-  "dgft-compliance-basics": "docs",
-  "import-costing-landed-cost": "costing",
-  "exim-terminology-guide": "docs",
-  "ai-for-importers": "tech",
-  "bill-of-entry-walkthrough": "customs",
-  "import-business-starter-guide": "tech",
-  "freight-logistics-essentials": "costing",
+  "aeo-programme-guide": "customs",
+  "carotar-2020-tamil": "docs",
+  "concessional-schemes-tamil": "schemes",
+  "customs-valuation-tamil": "customs",
+  "import-clearance-procedures": "customs",
+  "second-hand-capital-goods-tamil": "docs",
+  "warehousing-schemes-comparison-tamil": "schemes",
 };
 
 let currentLang = "en";
@@ -147,21 +141,19 @@ function renderApp() {
 
   // Filter pills
   const pillAll = document.querySelector('#book-filter-pills [data-category="all"]');
-  if (pillAll) pillAll.textContent = isTa ? "அனைத்து கையேடுகள் (10)" : "All Handbooks (10)";
+  if (pillAll) pillAll.textContent = isTa ? "அனைத்து கையேடுகள் (7)" : "All Handbooks (7)";
   const pillCustoms = document.querySelector('#book-filter-pills [data-category="customs"]');
   if (pillCustoms) pillCustoms.textContent = isTa ? "🛃 சுங்கம் & அனுமதி" : "🛃 Customs & Clearance";
   const pillDocs = document.querySelector('#book-filter-pills [data-category="docs"]');
-  if (pillDocs) pillDocs.textContent = isTa ? "📑 ஆவணங்கள் & விதிகள்" : "📑 Documentation & Compliance";
-  const pillCosting = document.querySelector('#book-filter-pills [data-category="costing"]');
-  if (pillCosting) pillCosting.textContent = isTa ? "💰 அடக்கவிலை & சரக்கு" : "💰 Costing & Logistics";
-  const pillTech = document.querySelector('#book-filter-pills [data-category="tech"]');
-  if (pillTech) pillTech.textContent = isTa ? "🤖 AI & தொடக்க வழிகாட்டி" : "🤖 AI & Starter";
+  if (pillDocs) pillDocs.textContent = isTa ? "📑 ஆவணங்கள் & FTA" : "📑 Documentation & FTA";
+  const pillSchemes = document.querySelector('#book-filter-pills [data-category="schemes"]');
+  if (pillSchemes) pillSchemes.textContent = isTa ? "💰 திட்டங்கள் & சேமிப்புக் கிடங்கு" : "💰 Schemes & Warehousing";
 
   const bookSearchInput = document.getElementById("book-search");
   if (bookSearchInput) {
     bookSearchInput.placeholder = isTa
       ? "தலைப்பு, அதிகாரம் அல்லது விதியைப் பயன்படுத்தி தேடுக..."
-      : "Search by title, chapter or topic (e.g. HSN, DGFT, Incoterms, Valuation)...";
+      : "Search by title, chapter or topic (e.g. AEO, CAROTAR, Valuation, Incoterms, MOOWR)...";
   }
 
   const faqSearchInput = document.getElementById("faq-search");
@@ -366,7 +358,7 @@ function renderBooks(books) {
           ${isTa ? "மற்றொரு வார்த்தையைத் தேடவும் அல்லது அனைத்து கையேடுகளையும் பார்க்கவும்." : "Try clearing your search query or switching to another category."}
         </p>
         <button class="btn-navy" style="margin-top: 1rem; font-size: 0.8125rem;" onclick="clearBookSearch()">
-          ${isTa ? "அனைத்து கையேடுகளையும் காட்டு" : "Reset & Show All 10 Handbooks"}
+          ${isTa ? "அனைத்து 7 கையேடுகளையும் காட்டு" : "Reset & Show All 7 Handbooks"}
         </button>
       </div>
     `;
@@ -376,10 +368,12 @@ function renderBooks(books) {
   container.innerHTML = books
     .map((book) => {
       const masterIndex = allMasterBooks.findIndex((b) => b.slug === book.slug);
+      const pdfPath = uploadedFiles[book.slug] || book.pdfUrl || `ebooks/${book.slug}.pdf`;
+      const downloadFilename = book.downloadName || `${book.slug}.pdf`;
       return `
     <article class="book-card" data-slug="${book.slug}">
-      <div class="book-cover" onclick="openBookModal(${masterIndex})" style="cursor: pointer;" title="${isTa ? 'புத்தக விவரங்களை காண்க' : 'Click to view chapters & preview'}">
-        <img src="assets/books/${book.slug}.jpg" alt="${book.title} cover" loading="lazy" />
+      <div class="book-cover" onclick="openBookModal(${masterIndex})" style="cursor: pointer;" title="${isTa ? 'புத்தக அத்தியாயங்கள் & முன்னோட்டம் பார்க்க கிளிக் செய்க' : 'Click to view chapters & preview'}">
+        <img src="assets/books/${book.slug}.png" alt="${book.title} cover" loading="lazy" />
         <span class="book-tag">${book.pages || "PDF"}</span>
       </div>
       <div class="book-info">
@@ -393,12 +387,12 @@ function renderBooks(books) {
           </div>
         </div>
         <div style="display: flex; gap: 0.375rem; margin-top: 0.75rem;">
-          <button class="btn-outline" style="flex: 1; padding: 0.45rem 0.25rem; font-size: 0.75rem; justify-content: center; font-weight: 700;" onclick="openBookModal(${masterIndex})">
-            👁️ ${isTa ? 'விவரம்' : 'View Content'}
+          <button class="btn-outline" style="flex: 1; padding: 0.5rem 0.25rem; font-size: 0.75rem; justify-content: center; font-weight: 700;" onclick="openBookModal(${masterIndex})">
+            👁️ ${isTa ? 'முன்னோட்டம்' : 'View Preview'}
           </button>
-          <button class="btn-navy" style="flex: 1; padding: 0.45rem 0.25rem; font-size: 0.75rem; justify-content: center; font-weight: 700; white-space: nowrap;" onclick="downloadAndOpenBook('${book.slug}')">
-            ⬇️ ${isTa ? 'பதிவிறக்கு' : 'Download'}
-          </button>
+          <a href="${pdfPath}" download="${downloadFilename}" class="btn-navy" style="flex: 1; padding: 0.5rem 0.25rem; font-size: 0.75rem; justify-content: center; font-weight: 700; white-space: nowrap; text-decoration: none;" onclick="triggerDownloadFeedback('${book.slug}')">
+            ⬇️ ${isTa ? 'பதிவிறக்கு' : 'Download PDF'}
+          </a>
         </div>
       </div>
     </article>
@@ -518,33 +512,38 @@ function switchBookTab(tabId) {
   });
 }
 
-function downloadAndOpenBook(slug) {
-  const url = uploadedFiles[slug] || `ebooks/${slug}.pdf`;
-  const filename = `${slug}.pdf`;
-
-  // Find book title for friendly toast
+function triggerDownloadFeedback(slug) {
   const allMasterBooks = TRANSLATIONS[currentLang].books.items;
   const book = allMasterBooks.find((b) => b.slug === slug);
   const title = book ? book.title : slug;
   showToast(
     currentLang === "ta"
-      ? `⬇️ "${title}" திறக்கப்பட்டு பதிவிறக்கப்படுகிறது...`
-      : `⬇️ Opening & downloading "${title}"...`,
+      ? `⬇️ "${title}" பதிவிறக்கப்படுகிறது...`
+      : `⬇️ Downloading "${title}"...`,
+    "📖"
+  );
+}
+
+function downloadAndOpenBook(slug) {
+  const allMasterBooks = TRANSLATIONS[currentLang].books.items;
+  const book = allMasterBooks.find((b) => b.slug === slug);
+  const url = uploadedFiles[slug] || (book && book.pdfUrl) || `ebooks/${slug}.pdf`;
+  const filename = (book && book.downloadName) || `${slug}.pdf`;
+  const title = book ? book.title : slug;
+
+  showToast(
+    currentLang === "ta"
+      ? `⬇️ "${title}" பதிவிறக்கப்படுகிறது...`
+      : `⬇️ Downloading "${title}"...`,
     "📖"
   );
 
-  // 1. Open the PDF in a new tab for reading
-  window.open(url, "_blank");
-
-  // 2. Trigger programmatic download to local disk
-  setTimeout(() => {
-    const link = document.createElement("a");
-    link.href = url;
-    link.download = filename;
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  }, 100);
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = filename;
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
 }
 
 function handleModalDownload() {
@@ -560,11 +559,11 @@ function openBookModal(index) {
   document.getElementById("modal-book-title").textContent = book.title;
   document.getElementById("modal-book-tagline").textContent = book.tagline || "";
   document.getElementById("modal-book-desc").textContent = book.desc;
-  document.getElementById("modal-book-cover").src = `assets/books/${book.slug}.jpg`;
+  document.getElementById("modal-book-cover").src = `assets/books/${book.slug}.png`;
   document.getElementById("modal-book-price").textContent = `₹${BOOK_OFFER_PRICE}`;
   document.getElementById("modal-book-list").textContent = `₹${BOOK_LIST_PRICE}`;
   document.getElementById("modal-book-discount").textContent = BOOK_DISCOUNT_LABEL;
-  document.getElementById("modal-book-pages").textContent = book.pages || "50 Pages";
+  document.getElementById("modal-book-pages").textContent = book.pages || "PDF";
 
   // Render chapters syllabus
   const chapterContainer = document.getElementById("modal-chapter-list");
@@ -611,7 +610,15 @@ function openBookModal(index) {
   }
 
   // PDF download, preview links and live viewer
-  const pdfHref = uploadedFiles[book.slug] || `ebooks/${book.slug}.pdf`;
+  const pdfHref = uploadedFiles[book.slug] || book.pdfUrl || `ebooks/${book.slug}.pdf`;
+  const downloadBtn = document.getElementById("modal-book-download");
+  if (downloadBtn) {
+    downloadBtn.href = pdfHref;
+    downloadBtn.download = book.downloadName || `${book.slug}.pdf`;
+    downloadBtn.textContent = currentLang === "ta" ? "⬇️ முழு PDF பதிவிறக்கு" : "⬇️ Download Full PDF";
+    downloadBtn.onclick = () => triggerDownloadFeedback(book.slug);
+  }
+
   const previewBtn = document.getElementById("modal-book-preview");
   if (previewBtn) {
     previewBtn.href = pdfHref;

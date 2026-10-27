@@ -1,16 +1,13 @@
 # Importpreneur VIP - E-Books Directory
 
-Place your finalized PDF files in this directory with the following exact filenames:
+This directory contains the 7 official practical e-books and handbooks:
 
-1. `import-documentation-handbook.pdf` - Import Documentation Handbook
-2. `hsn-classification-made-simple.pdf` - HSN Classification Made Simple
-3. `customs-clearance-guide.pdf` - Customs Clearance Guide
-4. `dgft-compliance-basics.pdf` - DGFT & Compliance Basics
-5. `import-costing-landed-cost.pdf` - Import Costing & Landed Cost
-6. `exim-terminology-guide.pdf` - EXIM Terminology Guide
-7. `ai-for-importers.pdf` - AI for Importers
-8. `bill-of-entry-walkthrough.pdf` - Bill of Entry Walkthrough
-9. `import-business-starter-guide.pdf` - Import Business Starter Guide
-10. `freight-logistics-essentials.pdf` - Freight & Logistics Essentials
+1. `aeo-programme-guide.pdf` (`AEO_அங்கீகரிக்கப்பட்ட_பொருளாதார_செயற்பாட்டாளர் (1).pdf`) - அங்கீகரிக்கப்பட்ட பொருளாதார செயற்பாட்டாளர் (AEO)
+2. `carotar-2020-tamil.pdf` (`CAROTAR_2020_Tamil.pdf`) - CAROTAR 2020 — தோற்று விதிகள் நிர்வாகம்
+3. `concessional-schemes-tamil.pdf` (`Concessional_Schemes_Tamil.pdf`) - சலுகை இறக்குமதி & ஏற்றுமதி ஊக்குவிப்பு திட்டங்கள்
+4. `customs-valuation-tamil.pdf` (`Customs_Valuation_Tamil.pdf`) - இந்திய கஸ்டம்ஸ் மதிப்பீட்டு வழிகாட்டி
+5. `import-clearance-procedures.pdf` (`Import clearance procedures.pdf`) - இறக்குமதி பயணம் — இந்திய சுங்கத்துறை வழிகாட்டி
+6. `second-hand-capital-goods-tamil.pdf` (`Second_Hand_Capital_Goods_Tamil.pdf`) - பழைய Capital Goods இறக்குமதி & மதிப்பீடு
+7. `warehousing-schemes-comparison-tamil.pdf` (`Warehousing_Schemes_Comparison_Tamil.pdf`) - Bonded Warehouse · FTWZ · SEZ · MOOWR · EOU ஒப்பீடு
 
-When you copy or upload your PDFs into this folder, visitors will immediately be able to download and read them from the web app!
+All PDFs are preserved exactly as provided in the repository.
