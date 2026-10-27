@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde68a" />
+      <stop offset="50%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background Squircle -->
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)" />
+  <rect x="12" y="12" width="488" height="488" rx="116" fill="none" stroke="url(#goldGrad)" stroke-width="8" stroke-opacity="0.6" />
+
+  <!-- Gold Anchor Symbol -->
+  <g filter="url(#shadow)" fill="url(#goldGrad)">
+    <!-- Top Ring -->
+    <circle cx="256" cy="118" r="42" fill="none" stroke="url(#goldGrad)" stroke-width="26" />
+    
+    <!-- Central Stock (Horizontal Bar) -->
+    <rect x="156" y="180" width="200" height="28" rx="14" />
+    <circle cx="156" cy="194" r="18" />
+    <circle cx="356" cy="194" r="18" />
+
+    <!-- Central Vertical Shank -->
+    <rect x="241" y="146" width="30" height="236" rx="15" />
+
+    <!-- Anchor Flukes / Arc -->
+    <path d="M 124 286 C 124 380, 200 422, 256 422 C 312 422, 388 380, 388 286 L 358 286 C 358 356, 298 392, 256 392 C 214 392, 154 356, 154 286 Z" />
+
+    <!-- Left Arrow Head / Fluke -->
+    <polygon points="124,250 82,310 166,310" />
+
+    <!-- Right Arrow Head / Fluke -->
+    <polygon points="388,250 346,310 430,310" />
+    
+    <!-- Center Crown Dot -->
+    <circle cx="256" cy="406" r="16" />
+  </g>
+</svg>
